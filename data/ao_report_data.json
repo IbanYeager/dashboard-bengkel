@@ -1,0 +1,913 @@
+{
+  "meta": {
+    "title": "AO REPORT GR - Executive Intelligence & Monitoring",
+    "outlet": "TUNAS TOYOTA KIARA CONDONG",
+    "active_week": "W3",
+    "active_month": "October",
+    "active_year": "2026",
+    "source_url": "https://docs.google.com/spreadsheets/d/1LQYpCsXsU3o6N4cAMQH7Da44rXhSlksO/edit?gid=1124551793#gid=1124551793",
+    "updated_at": "2026-10-19 13:09:42"
+  },
+  "summary": {
+    "this_month_closing_estimation": {
+      "cpus": 714,
+      "vs_tar_pct": 105
+    },
+    "closing_commitment": 714,
+    "total_cpus_gap_fm": -245,
+    "gap_cpus_walkin_fm": -131,
+    "act_cpus_walkin_fm": 137,
+    "gap_cpus_booking_fm": -114,
+    "act_cpus_booking_fm": 332
+  },
+  "section_1_target_setting": {
+    "kpi_tree": {
+      "cpus_target": 714,
+      "walk_in": {
+        "target": 268,
+        "pct": 38
+      },
+      "booking_show": {
+        "target": 446,
+        "pct": 62,
+        "tcare": {
+          "target": 229,
+          "pct": 51
+        },
+        "non_tcare": {
+          "target": 217,
+          "pct": 49,
+          "oil": {
+            "target": 26,
+            "pct": 12
+          },
+          "gr": {
+            "target": 140,
+            "pct": 65
+          },
+          "sbe": {
+            "target": 50,
+            "pct": 23
+          }
+        }
+      }
+    },
+    "mini_week_performance": {
+      "week": "W3",
+      "actual": 469,
+      "vs_tar": "119%"
+    },
+    "weekly_performance": {
+      "weeks": [
+        "W1",
+        "W2",
+        "W3",
+        "W4",
+        "W5"
+      ],
+      "total_cpus_plan": [
+        73,
+        160,
+        160,
+        160,
+        160
+      ],
+      "total_cpus_plan_total": 714,
+      "total_cpus_actual": [
+        99,
+        182,
+        188,
+        0,
+        0
+      ],
+      "total_cpus_actual_total": -131,
+      "total_gap": [
+        26,
+        22,
+        28,
+        -160,
+        -160
+      ],
+      "cumulative_gap_cpus": [
+        26,
+        48,
+        76,
+        -85,
+        -245
+      ],
+      "walkin_assumpt": [
+        27,
+        60,
+        60,
+        60,
+        60
+      ],
+      "walkin_actual": [
+        42,
+        45,
+        50,
+        0,
+        0
+      ],
+      "walkin_gap": [
+        15,
+        -15,
+        -10,
+        -60,
+        -60
+      ],
+      "cumulative_gap_walkin": [
+        15,
+        -1,
+        -11,
+        -71,
+        -131
+      ],
+      "working_days": [
+        5,
+        6,
+        6,
+        6,
+        4
+      ],
+      "working_days_total": 27,
+      "booking_show_plan": [
+        46,
+        100,
+        100,
+        100,
+        100
+      ],
+      "booking_show_plan_total": 446,
+      "booking_show_actual": [
+        57,
+        137,
+        138,
+        0,
+        0
+      ],
+      "booking_show_actual_total": 332,
+      "booking_show_gap": [
+        11,
+        37,
+        38,
+        -100,
+        -100
+      ],
+      "booking_show_gap_total": -114,
+      "booking_show_gap_cumulative": [
+        11,
+        48,
+        86,
+        -14,
+        -114
+      ],
+      "no_show_assumption": [
+        10,
+        22,
+        22,
+        22,
+        22
+      ],
+      "no_show_assumption_total": 98,
+      "no_show_actual": [
+        31,
+        45,
+        48,
+        56,
+        42
+      ],
+      "no_show_actual_total": 222,
+      "no_show_ratio": [
+        "35%",
+        "25%",
+        "26%",
+        "100%",
+        "100%"
+      ],
+      "no_show_ratio_total": "40%",
+      "cumulative_no_show": [
+        31,
+        76,
+        124,
+        180,
+        222
+      ],
+      "cumulative_no_show_total": 222,
+      "booking_gross_plan": [
+        56,
+        122,
+        122,
+        122,
+        122
+      ],
+      "booking_gross_plan_total": 544,
+      "booking_gross_initial": [
+        5,
+        1,
+        1,
+        0,
+        0
+      ],
+      "booking_gross_initial_total": 7,
+      "booking_gross_n": [
+        51,
+        121,
+        121,
+        122,
+        122
+      ],
+      "booking_gross_n_total": 537,
+      "booking_actual": [
+        88,
+        182,
+        186,
+        56,
+        42
+      ],
+      "booking_actual_total": 554,
+      "booking_gap": [
+        32,
+        60,
+        64,
+        -66,
+        -80
+      ],
+      "booking_gap_total": 10,
+      "cumulative_gap_booking": [
+        32,
+        92,
+        156,
+        90,
+        10
+      ]
+    },
+    "staircase_matrix": [
+      {
+        "row": 1,
+        "cells": [
+          {
+            "col": 4,
+            "val": -49,
+            "type": "neg"
+          },
+          {
+            "col": 5,
+            "val": 49,
+            "type": "pos"
+          },
+          {
+            "col": 6,
+            "val": -62,
+            "type": "neg"
+          }
+        ]
+      },
+      {
+        "row": 2,
+        "cells": [
+          {
+            "col": 4,
+            "val": -51,
+            "type": "neg"
+          },
+          {
+            "col": 5,
+            "val": 51,
+            "type": "pos"
+          },
+          {
+            "col": 6,
+            "val": -52,
+            "type": "neg"
+          }
+        ]
+      },
+      {
+        "row": 3,
+        "cells": [
+          {
+            "col": 3,
+            "val": -49,
+            "type": "neg"
+          },
+          {
+            "col": 4,
+            "val": 49,
+            "type": "pos"
+          },
+          {
+            "col": 5,
+            "val": -13,
+            "type": "neg"
+          }
+        ]
+      },
+      {
+        "row": 4,
+        "cells": [
+          {
+            "col": 3,
+            "val": -51,
+            "type": "neg"
+          },
+          {
+            "col": 4,
+            "val": 51,
+            "type": "pos"
+          },
+          {
+            "col": 5,
+            "val": -1,
+            "type": "neg"
+          }
+        ]
+      },
+      {
+        "row": 5,
+        "cells": [
+          {
+            "col": 2,
+            "val": -49,
+            "type": "neg"
+          },
+          {
+            "col": 3,
+            "val": 49,
+            "type": "pos"
+          },
+          {
+            "col": 4,
+            "val": -11,
+            "type": "neg"
+          }
+        ]
+      },
+      {
+        "row": 6,
+        "cells": [
+          {
+            "col": 2,
+            "val": -51,
+            "type": "neg"
+          },
+          {
+            "col": 3,
+            "val": 51,
+            "type": "pos"
+          },
+          {
+            "col": 4,
+            "val": 39,
+            "type": "pos"
+          }
+        ]
+      },
+      {
+        "row": 7,
+        "cells": [
+          {
+            "col": 1,
+            "val": 18,
+            "type": "pos"
+          },
+          {
+            "col": 2,
+            "val": 49,
+            "type": "pos"
+          },
+          {
+            "col": 3,
+            "val": 17,
+            "type": "pos"
+          }
+        ]
+      },
+      {
+        "row": 8,
+        "cells": [
+          {
+            "col": 1,
+            "val": 20,
+            "type": "pos"
+          },
+          {
+            "col": 2,
+            "val": 51,
+            "type": "pos"
+          },
+          {
+            "col": 3,
+            "val": 51,
+            "type": "pos"
+          }
+        ]
+      },
+      {
+        "row": 9,
+        "cells": [
+          {
+            "col": 0,
+            "val": 10,
+            "type": "pos"
+          },
+          {
+            "col": 1,
+            "val": 49,
+            "type": "pos"
+          },
+          {
+            "col": 2,
+            "val": 36,
+            "type": "pos"
+          }
+        ]
+      },
+      {
+        "row": 10,
+        "cells": [
+          {
+            "col": 0,
+            "val": 27,
+            "type": "pos"
+          },
+          {
+            "col": 1,
+            "val": 51,
+            "type": "pos"
+          },
+          {
+            "col": 2,
+            "val": 31,
+            "type": "pos"
+          }
+        ]
+      }
+    ],
+    "cumulative_chart": {
+      "weeks": [
+        "W1",
+        "W2",
+        "W3",
+        "W4",
+        "W5"
+      ],
+      "target": [
+        73,
+        233,
+        393,
+        554,
+        714
+      ],
+      "actual": [
+        99,
+        281,
+        469,
+        469,
+        469
+      ]
+    }
+  },
+  "section_2_prospecting_funneling": {
+    "tcare": {
+      "data": {
+        "target_total": 872,
+        "actual": [
+          155,
+          190,
+          235,
+          0,
+          0
+        ],
+        "actual_total": 580,
+        "vs_tar_weeks": [
+          18,
+          40,
+          67,
+          67,
+          67
+        ],
+        "vs_tar_total_pct": 67
+      },
+      "connected": {
+        "target_weeks": [
+          160,
+          192,
+          192,
+          192,
+          128
+        ],
+        "target_total": 864,
+        "actual": [
+          133,
+          175,
+          190,
+          0,
+          0
+        ],
+        "actual_total": 498,
+        "vs_tar_weeks": [
+          83,
+          91,
+          99,
+          0,
+          0
+        ],
+        "vs_tar_total_pct": 58
+      },
+      "contacted": {
+        "target_weeks": [
+          106,
+          140,
+          152,
+          0,
+          0
+        ],
+        "target_total": 398,
+        "actual": [
+          80,
+          123,
+          105,
+          0,
+          0
+        ],
+        "actual_total": 307,
+        "vs_tar_weeks": [
+          75,
+          88,
+          69,
+          0,
+          0
+        ],
+        "vs_tar_total_pct": 77
+      },
+      "booking": {
+        "target_weeks": [
+          54,
+          67,
+          54,
+          67,
+          24
+        ],
+        "target_total": 266,
+        "actual": [
+          21,
+          39,
+          58,
+          23,
+          10
+        ],
+        "actual_total": 130,
+        "vs_tar_weeks": [
+          39,
+          58,
+          107,
+          34,
+          42
+        ],
+        "vs_tar_total_pct": 49
+      },
+      "booking_show": {
+        "target_weeks": [
+          23,
+          51,
+          51,
+          51,
+          51
+        ],
+        "target_total": 229,
+        "actual": [
+          28,
+          78,
+          71,
+          0,
+          0
+        ],
+        "actual_total": 177,
+        "vs_tar_weeks": [
+          120,
+          152,
+          138,
+          0,
+          0
+        ],
+        "vs_tar_total_pct": 77
+      }
+    },
+    "non_tcare": {
+      "data": {
+        "target_total": 725,
+        "actual": [
+          165,
+          139,
+          175,
+          0,
+          0
+        ],
+        "actual_total": 479,
+        "vs_tar_weeks": [
+          23,
+          42,
+          66,
+          66,
+          66
+        ],
+        "vs_tar_total_pct": 66
+      },
+      "connected": {
+        "target_weeks": [
+          118,
+          142,
+          142,
+          142,
+          95
+        ],
+        "target_total": 639,
+        "actual": [
+          130,
+          130,
+          168,
+          0,
+          0
+        ],
+        "actual_total": 428,
+        "vs_tar_weeks": [
+          110,
+          92,
+          118,
+          0,
+          0
+        ],
+        "vs_tar_total_pct": 67
+      },
+      "contacted": {
+        "target_weeks": [
+          83,
+          99,
+          99,
+          99,
+          67
+        ],
+        "target_total": 447,
+        "actual": [
+          107,
+          98,
+          150,
+          0,
+          0
+        ],
+        "actual_total": 354,
+        "vs_tar_weeks": [
+          128,
+          98,
+          151,
+          0,
+          0
+        ],
+        "vs_tar_total_pct": 79
+      },
+      "booking": {
+        "target_weeks": [
+          27,
+          59,
+          59,
+          59,
+          59
+        ],
+        "target_total": 263,
+        "actual": [
+          50,
+          87,
+          101,
+          31,
+          24
+        ],
+        "actual_total": 293,
+        "vs_tar_weeks": [
+          185,
+          147,
+          171,
+          53,
+          41
+        ],
+        "vs_tar_total_pct": 111
+      },
+      "booking_show": {
+        "target_weeks": [
+          22,
+          49,
+          49,
+          49,
+          49
+        ],
+        "target_total": 217,
+        "actual": [
+          29,
+          59,
+          67,
+          0,
+          0
+        ],
+        "actual_total": 155,
+        "vs_tar_weeks": [
+          131,
+          121,
+          138,
+          0,
+          0
+        ],
+        "vs_tar_total_pct": 72
+      }
+    }
+  },
+  "section_3_sbi": {
+    "target_rate_badge": "81,82%",
+    "weight_row": [
+      "4,5",
+      "5,5",
+      "4,5",
+      "5,5",
+      "1"
+    ],
+    "target": {
+      "ncs_m1": [
+        16,
+        20,
+        20,
+        20,
+        13
+      ],
+      "ncs_m1_total": 88,
+      "not_cai": [
+        5,
+        4,
+        3,
+        2,
+        2
+      ],
+      "not_cai_total": 16,
+      "total": [
+        21,
+        24,
+        23,
+        22,
+        15
+      ],
+      "total_total": 104
+    },
+    "actual": {
+      "ncs_m1": [
+        9,
+        13,
+        19,
+        0,
+        0
+      ],
+      "ncs_m1_total": 41,
+      "not_cai": [
+        7,
+        7,
+        1,
+        20,
+        13
+      ],
+      "not_cai_total": 47,
+      "total": [
+        16,
+        20,
+        20,
+        20,
+        13
+      ],
+      "total_total": 88
+    },
+    "gap": {
+      "gap_kumulatif": [
+        -5,
+        -4,
+        -3,
+        -2,
+        -2
+      ],
+      "gap_kumulatif_total": -16
+    }
+  },
+  "section_4_action_plan": [
+    {
+      "category": "TCARE",
+      "plan": "reminder by MRA - Akselerasi Reminder potency W4-W5",
+      "pic": "MRA",
+      "status": "on process"
+    },
+    {
+      "category": "TCARE",
+      "plan": "THS aktivitas reminder cust fleet (sudeco-TPI-Movus)",
+      "pic": "THS",
+      "status": "on process"
+    },
+    {
+      "category": "TCARE",
+      "plan": "REMINDER BY SA potency by appsheet",
+      "pic": "SA",
+      "status": "on process"
+    },
+    {
+      "category": "NON TCARE",
+      "plan": "reminder by MRA",
+      "pic": "MRA",
+      "status": "on process"
+    },
+    {
+      "category": "NON TCARE",
+      "plan": "THS aktivitas by app sheet",
+      "pic": "THS",
+      "status": "on process"
+    },
+    {
+      "category": "NON TCARE",
+      "plan": "REMINDER BY SA potency",
+      "pic": "SA",
+      "status": "on process"
+    },
+    {
+      "category": "SBI",
+      "plan": "reminder by MRA dan Sales - report monitoring SPV & Branch Head",
+      "pic": "MRA - Kabeng",
+      "status": "on process"
+    }
+  ],
+  "kpi_tree_monthly_targets": {
+    "January": {
+      "target": 714,
+      "booking_show": 446,
+      "tcare": 229,
+      "non_tcare": 217
+    },
+    "February": {
+      "target": 680,
+      "booking_show": 425,
+      "tcare": 218,
+      "non_tcare": 207
+    },
+    "March": {
+      "target": 730,
+      "booking_show": 456,
+      "tcare": 234,
+      "non_tcare": 222
+    },
+    "April": {
+      "target": 700,
+      "booking_show": 438,
+      "tcare": 225,
+      "non_tcare": 213
+    },
+    "May": {
+      "target": 720,
+      "booking_show": 450,
+      "tcare": 231,
+      "non_tcare": 219
+    },
+    "June": {
+      "target": 710,
+      "booking_show": 444,
+      "tcare": 228,
+      "non_tcare": 216
+    },
+    "July": {
+      "target": 740,
+      "booking_show": 462,
+      "tcare": 237,
+      "non_tcare": 225
+    },
+    "August": {
+      "target": 735,
+      "booking_show": 459,
+      "tcare": 236,
+      "non_tcare": 223
+    },
+    "September": {
+      "target": 725,
+      "booking_show": 453,
+      "tcare": 233,
+      "non_tcare": 220
+    },
+    "October": {
+      "target": 714,
+      "booking_show": 446,
+      "tcare": 229,
+      "non_tcare": 217
+    },
+    "November": {
+      "target": 720,
+      "booking_show": 450,
+      "tcare": 231,
+      "non_tcare": 219
+    },
+    "December": {
+      "target": 750,
+      "booking_show": 469,
+      "tcare": 241,
+      "non_tcare": 228
+    }
+  }
+}

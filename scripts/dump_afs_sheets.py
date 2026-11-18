@@ -1,0 +1,46 @@
+import zipfile
+import xml.etree.ElementTree as ET
+import re
+
+EXCEL_AFS = 'Dashboard AFS Kiaracondong-start 2024.xlsx'
+with zipfile.ZipFile(EXCEL_AFS, 'r') as z:
+    ss = []
+    if 'xl/sharedStrings.xml' in z.namelist():
+        tree = ET.fromstring(z.read('xl/sharedStrings.xml'))
+        for si in tree.findall('{http://schemas.openxmlformats.org/spreadsheetml/2006/main}si'):
+            t = ''.join([n.text for n in si.iter() if n.text])
+            ss.append(t)
+            
+    wb = ET.fromstring(z.read('xl/workbook.xml'))
+    rels = ET.fromstring(z.read('xl/_rels/workbook.xml.rels'))
+    rel_map = {r.attrib['Id']: r.attrib['Target'] for r in rels}
+    
+    def dump_sheet(sheet_name):
+        print(f"\n=== DUMP SHEET: {sheet_name} ===")
+        for sheet in wb.findall('{http://schemas.openxmlformats.org/spreadsheetml/2006/main}sheets/{http://schemas.openxmlformats.org/spreadsheetml/2006/main}sheet'):
+            if sheet.attrib['name'] == sheet_name:
+                r_id = sheet.attrib['{http://schemas.openxmlformats.org/officeDocument/2006/relationships}id']
+                t_path = 'xl/' + rel_map[r_id] if not rel_map[r_id].startswith('xl/') else rel_map[r_id]
+                st = ET.fromstring(z.read(t_path))
+                for r in st.findall('{http://schemas.openxmlformats.org/spreadsheetml/2006/main}sheetData/{http://schemas.openxmlformats.org/spreadsheetml/2006/main}row'):
+                    r_num = int(r.attrib['r'])
+                    cells = {}
+                    for c in r.findall('{http://schemas.openxmlformats.org/spreadsheetml/2006/main}c'):
+                        ref = c.attrib['r']
+                        col = re.match(r'([A-Z]+)', ref).group(1)
+                        t = c.attrib.get('t')
+                        v_el = c.find('{http://schemas.openxmlformats.org/spreadsheetml/2006/main}v')
+                        val = ''
+                        if v_el is not None and v_el.text:
+                            val = ss[int(v_el.text)] if t == 's' else v_el.text
+                        cells[col] = val
+                    if cells:
+                        row_vals = [f"{k}:{v}" for k, v in sorted(cells.items()) if v]
+                        if row_vals:
+                            print(f"Row {r_num:2}: " + " | ".join(row_vals[:12]))
+
+    dump_sheet('LIST CPUS')
+    dump_sheet('DASHBOARD SA')
+    dump_sheet('SA DIDIN')
+    dump_sheet('SA FICKY')
+    dump_sheet('SA ACEP')

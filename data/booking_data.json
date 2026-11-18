@@ -1,0 +1,322 @@
+{
+  "meta": {
+    "title": "Monitoring Saluran Booking & Live TikTok",
+    "spreadsheet_id": "1tYGRaZf39MONbZ8IvgX2EtPHGzsg9by3jRrHfoNE4pQ",
+    "gid": "2008717837",
+    "updated_at": "2026-10-17T12:57:39.328107",
+    "year": 2026,
+    "source": "local_cache",
+    "valid_until": "September 2026",
+    "active_months_count": 9,
+    "note": "Sheet Booking diset 'Dibatasi'. Menampilkan data booking tervalidasi Januari-September 2026."
+  },
+  "months": [
+    "Jan",
+    "Feb",
+    "Mar",
+    "Apr",
+    "Mei",
+    "Jun",
+    "Jul",
+    "Agt",
+    "Sep",
+    "Okt",
+    "Nov",
+    "Des"
+  ],
+  "channels": {
+    "inc_call": {
+      "title": "Incoming Call (Inc. Call)",
+      "code": "INC_CALL",
+      "ytd_total": 324,
+      "monthly": [
+        38,
+        42,
+        35,
+        30,
+        34,
+        39,
+        36,
+        37,
+        33,
+        null,
+        null,
+        null
+      ]
+    },
+    "boc": {
+      "title": "Booking on Call (BOC)",
+      "code": "BOC",
+      "ytd_total": 239,
+      "monthly": [
+        25,
+        28,
+        26,
+        24,
+        27,
+        29,
+        28,
+        27,
+        25,
+        null,
+        null,
+        null
+      ]
+    },
+    "sa_total": {
+      "title": "SA Total / Summary",
+      "code": "SA_TOTAL",
+      "ytd_total": 420,
+      "monthly": [
+        48,
+        52,
+        45,
+        40,
+        46,
+        50,
+        47,
+        48,
+        44,
+        null,
+        null,
+        null
+      ]
+    },
+    "sa_didin": {
+      "title": "SA Didin",
+      "code": "SA_DIDIN",
+      "ytd_total": 153,
+      "monthly": [
+        18,
+        19,
+        16,
+        15,
+        17,
+        18,
+        17,
+        17,
+        16,
+        null,
+        null,
+        null
+      ]
+    },
+    "sa_ficky": {
+      "title": "SA Ficky",
+      "code": "SA_FICKY",
+      "ytd_total": 139,
+      "monthly": [
+        16,
+        17,
+        15,
+        13,
+        15,
+        17,
+        16,
+        16,
+        14,
+        null,
+        null,
+        null
+      ]
+    },
+    "sa_acep": {
+      "title": "SA Acep",
+      "code": "SA_ACEP",
+      "ytd_total": 128,
+      "monthly": [
+        14,
+        16,
+        14,
+        12,
+        14,
+        15,
+        14,
+        15,
+        14,
+        null,
+        null,
+        null
+      ]
+    },
+    "m_toyota": {
+      "title": "M-Toyota",
+      "code": "M_TOYOTA",
+      "ytd_total": 186,
+      "monthly": [
+        20,
+        22,
+        19,
+        18,
+        21,
+        23,
+        22,
+        21,
+        20,
+        null,
+        null,
+        null
+      ]
+    },
+    "sales": {
+      "title": "Sales Booking Referral",
+      "code": "SALES",
+      "ytd_total": 144,
+      "monthly": [
+        15,
+        18,
+        16,
+        14,
+        16,
+        17,
+        16,
+        17,
+        15,
+        null,
+        null,
+        null
+      ]
+    }
+  },
+  "tiktok_live": {
+    "title": "Performa Live TikTok Bengkel",
+    "source": "Google Sheets (LIVE TIKTOK - GID 1727895687)",
+    "kpis": {
+      "duration_minutes": {
+        "value": 56,
+        "unit": "Menit/sesi",
+        "label": "Duration (Minute)"
+      },
+      "likes_per_day": {
+        "value": 429,
+        "unit": "Likes/hari",
+        "label": "Likes / day"
+      },
+      "viewer_per_day": {
+        "value": 59,
+        "unit": "Viewer/hari",
+        "label": "Viewer / day"
+      },
+      "comments_per_day": {
+        "value": 12,
+        "unit": "Komen/hari",
+        "label": "Comment / day"
+      },
+      "total_booking": {
+        "value": 32,
+        "unit": "Unit Booking",
+        "label": "Booking Acquired"
+      }
+    },
+    "monthly_trend": [
+      {
+        "month": "Jan",
+        "duration": 58,
+        "likes": 482,
+        "viewer": 54,
+        "comments": 15,
+        "booking": 4,
+        "has_data": true
+      },
+      {
+        "month": "Feb",
+        "duration": 58,
+        "likes": 427,
+        "viewer": 52,
+        "comments": 12,
+        "booking": 4,
+        "has_data": true
+      },
+      {
+        "month": "Mar",
+        "duration": 57,
+        "likes": 444,
+        "viewer": 49,
+        "comments": 10,
+        "booking": 5,
+        "has_data": true
+      },
+      {
+        "month": "Apr",
+        "duration": 51,
+        "likes": 503,
+        "viewer": 47,
+        "comments": 12,
+        "booking": 4,
+        "has_data": true
+      },
+      {
+        "month": "Mei",
+        "duration": 57,
+        "likes": 522,
+        "viewer": 53,
+        "comments": 15,
+        "booking": 4,
+        "has_data": true
+      },
+      {
+        "month": "Jun",
+        "duration": 57,
+        "likes": 404,
+        "viewer": 50,
+        "comments": 12,
+        "booking": 5,
+        "has_data": true
+      },
+      {
+        "month": "Jul",
+        "duration": 55,
+        "likes": 387,
+        "viewer": 146,
+        "comments": 11,
+        "booking": 3,
+        "has_data": true
+      },
+      {
+        "month": "Agt",
+        "duration": 52,
+        "likes": 387,
+        "viewer": 55,
+        "comments": 11,
+        "booking": 1,
+        "has_data": true
+      },
+      {
+        "month": "Sep",
+        "duration": 57,
+        "likes": 304,
+        "viewer": 27,
+        "comments": 6,
+        "booking": 2,
+        "has_data": true
+      },
+      {
+        "month": "Okt",
+        "duration": null,
+        "likes": null,
+        "viewer": null,
+        "comments": null,
+        "booking": null,
+        "has_data": false
+      },
+      {
+        "month": "Nov",
+        "duration": null,
+        "likes": null,
+        "viewer": null,
+        "comments": null,
+        "booking": null,
+        "has_data": false
+      },
+      {
+        "month": "Des",
+        "duration": null,
+        "likes": null,
+        "viewer": null,
+        "comments": null,
+        "booking": null,
+        "has_data": false
+      }
+    ]
+  }
+}

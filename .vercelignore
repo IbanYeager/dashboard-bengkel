@@ -1,0 +1,14 @@
+*.xlsx
+*.db
+*.sqlite
+scripts/
+scratch/
+scratch*
+*.py
+*.php
+scratch_toyota.html
+*.backup.json
+*.bak
+*.csv
+data/gsheet_temp/
+*.zip

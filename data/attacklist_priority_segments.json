@@ -1,0 +1,644 @@
+{
+  "overall": [
+    {
+      "group": "Priority 1",
+      "subgroups": [
+        {
+          "label": "Expired soon - Eligible",
+          "potensi": 43,
+          "cai": 15,
+          "pct": 34.9
+        },
+        {
+          "label": "Expired soon - Not Eligible",
+          "potensi": 136,
+          "cai": 35,
+          "pct": 25.7
+        },
+        {
+          "label": "Expired soon - Never claim",
+          "potensi": 2,
+          "cai": 1,
+          "pct": 50.0
+        }
+      ],
+      "total_label": "TOTAL EX SOON",
+      "total_potensi": 181,
+      "total_cai": 51,
+      "total_pct": 28.2
+    },
+    {
+      "group": "Priority 2",
+      "subgroups": [
+        {
+          "label": "Active - Eligible",
+          "potensi": 2820,
+          "cai": 733,
+          "pct": 26.0
+        },
+        {
+          "label": "Active - Not Eligible",
+          "potensi": 1406,
+          "cai": 267,
+          "pct": 19.0
+        },
+        {
+          "label": "Active - Never claim",
+          "potensi": 3,
+          "cai": 0,
+          "pct": 0.0
+        }
+      ],
+      "total_label": "TOTAL ACTIVE",
+      "total_potensi": 4229,
+      "total_cai": 1000,
+      "total_pct": 23.6
+    },
+    {
+      "group": "Priority 3",
+      "subgroups": [
+        {
+          "label": "Finish - Eligible",
+          "potensi": 408,
+          "cai": 66,
+          "pct": 16.2
+        },
+        {
+          "label": "Finish - Not Eligible",
+          "potensi": 112,
+          "cai": 29,
+          "pct": 25.9
+        }
+      ],
+      "total_label": "TOTAL FINISH",
+      "total_potensi": 520,
+      "total_cai": 95,
+      "total_pct": 18.3
+    },
+    {
+      "group": "Priority 4",
+      "subgroups": [
+        {
+          "label": "Expired - Eligible",
+          "potensi": 499,
+          "cai": 62,
+          "pct": 12.4
+        },
+        {
+          "label": "Expired - Not Eligible",
+          "potensi": 573,
+          "cai": 88,
+          "pct": 15.4
+        },
+        {
+          "label": "Expired - Never claim",
+          "potensi": 2,
+          "cai": 0,
+          "pct": 0.0
+        }
+      ],
+      "total_label": "TOTAL EXPIRED",
+      "total_potensi": 1074,
+      "total_cai": 150,
+      "total_pct": 14.0
+    },
+    {
+      "group": "Priority 5",
+      "subgroups": [
+        {
+          "label": "HOT",
+          "potensi": 72,
+          "cai": 13,
+          "pct": 18.1
+        },
+        {
+          "label": "Medium",
+          "potensi": 89,
+          "cai": 13,
+          "pct": 14.6
+        },
+        {
+          "label": "Low",
+          "potensi": 150,
+          "cai": 10,
+          "pct": 6.7
+        }
+      ],
+      "total_label": "TOTAL CRT MERDEKA",
+      "total_potensi": 311,
+      "total_cai": 36,
+      "total_pct": 11.6,
+      "title": "CRT > 8th Merdeka Motor (Pembelian Asal: MERDEKA \u2014 Kolom Judgement Cust)"
+    },
+    {
+      "group": "Priority 6",
+      "subgroups": [
+        {
+          "label": "HOT",
+          "potensi": 982,
+          "cai": 234,
+          "pct": 23.8
+        },
+        {
+          "label": "Medium",
+          "potensi": 1074,
+          "cai": 195,
+          "pct": 18.2
+        },
+        {
+          "label": "Low",
+          "potensi": 2992,
+          "cai": 320,
+          "pct": 10.7
+        }
+      ],
+      "total_label": "TOTAL CRT NON MERDEKA",
+      "total_potensi": 5048,
+      "total_cai": 749,
+      "total_pct": 14.8,
+      "title": "CRT > 8th All Penjualan (Pembelian Asal: Selain Merdeka \u2014 Kolom Judgement Cust)"
+    }
+  ],
+  "by_period": {
+    "Q1": [
+      {
+        "group": "Priority 1",
+        "subgroups": [
+          {
+            "label": "Expired soon - Eligible",
+            "potensi": 12,
+            "cai": 2,
+            "pct": 16.7
+          },
+          {
+            "label": "Expired soon - Not Eligible",
+            "potensi": 50,
+            "cai": 13,
+            "pct": 26.0
+          },
+          {
+            "label": "Expired soon - Never claim",
+            "potensi": 0,
+            "cai": 0,
+            "pct": 0
+          }
+        ],
+        "total_label": "TOTAL EX SOON",
+        "total_potensi": 62,
+        "total_cai": 15,
+        "total_pct": 24.2
+      },
+      {
+        "group": "Priority 2",
+        "subgroups": [
+          {
+            "label": "Active - Eligible",
+            "potensi": 998,
+            "cai": 235,
+            "pct": 23.5
+          },
+          {
+            "label": "Active - Not Eligible",
+            "potensi": 584,
+            "cai": 113,
+            "pct": 19.3
+          },
+          {
+            "label": "Active - Never claim",
+            "potensi": 0,
+            "cai": 0,
+            "pct": 0
+          }
+        ],
+        "total_label": "TOTAL ACTIVE",
+        "total_potensi": 1582,
+        "total_cai": 348,
+        "total_pct": 22.0
+      },
+      {
+        "group": "Priority 3",
+        "subgroups": [
+          {
+            "label": "Finish - Eligible",
+            "potensi": 121,
+            "cai": 26,
+            "pct": 21.5
+          },
+          {
+            "label": "Finish - Not Eligible",
+            "potensi": 44,
+            "cai": 15,
+            "pct": 34.1
+          }
+        ],
+        "total_label": "TOTAL FINISH",
+        "total_potensi": 165,
+        "total_cai": 41,
+        "total_pct": 24.8
+      },
+      {
+        "group": "Priority 4",
+        "subgroups": [
+          {
+            "label": "Expired - Eligible",
+            "potensi": 118,
+            "cai": 25,
+            "pct": 21.2
+          },
+          {
+            "label": "Expired - Not Eligible",
+            "potensi": 192,
+            "cai": 36,
+            "pct": 18.8
+          },
+          {
+            "label": "Expired - Never claim",
+            "potensi": 0,
+            "cai": 0,
+            "pct": 0
+          }
+        ],
+        "total_label": "TOTAL EXPIRED",
+        "total_potensi": 310,
+        "total_cai": 61,
+        "total_pct": 19.7
+      },
+      {
+        "group": "Priority 5",
+        "subgroups": [
+          {
+            "label": "HOT",
+            "potensi": 0,
+            "cai": 0,
+            "pct": 0
+          },
+          {
+            "label": "Medium",
+            "potensi": 0,
+            "cai": 0,
+            "pct": 0
+          },
+          {
+            "label": "Low",
+            "potensi": 0,
+            "cai": 0,
+            "pct": 0
+          }
+        ],
+        "total_label": "TOTAL CRT MERDEKA",
+        "total_potensi": 0,
+        "total_cai": 0,
+        "total_pct": 0,
+        "title": "CRT > 8th Merdeka Motor (Pembelian Asal: MERDEKA \u2014 Kolom Judgement Cust)"
+      },
+      {
+        "group": "Priority 6",
+        "subgroups": [
+          {
+            "label": "HOT",
+            "potensi": 427,
+            "cai": 108,
+            "pct": 25.3
+          },
+          {
+            "label": "Medium",
+            "potensi": 444,
+            "cai": 92,
+            "pct": 20.7
+          },
+          {
+            "label": "Low",
+            "potensi": 1309,
+            "cai": 153,
+            "pct": 11.7
+          }
+        ],
+        "total_label": "TOTAL CRT NON MERDEKA",
+        "total_potensi": 2180,
+        "total_cai": 353,
+        "total_pct": 16.2,
+        "title": "CRT > 8th All Penjualan (Pembelian Asal: Selain Merdeka \u2014 Kolom Judgement Cust)"
+      }
+    ],
+    "Q2": [
+      {
+        "group": "Priority 1",
+        "subgroups": [
+          {
+            "label": "Expired soon - Eligible",
+            "potensi": 17,
+            "cai": 8,
+            "pct": 47.1
+          },
+          {
+            "label": "Expired soon - Not Eligible",
+            "potensi": 34,
+            "cai": 7,
+            "pct": 20.6
+          },
+          {
+            "label": "Expired soon - Never claim",
+            "potensi": 0,
+            "cai": 0,
+            "pct": 0
+          }
+        ],
+        "total_label": "TOTAL EX SOON",
+        "total_potensi": 51,
+        "total_cai": 15,
+        "total_pct": 29.4
+      },
+      {
+        "group": "Priority 2",
+        "subgroups": [
+          {
+            "label": "Active - Eligible",
+            "potensi": 1138,
+            "cai": 301,
+            "pct": 26.4
+          },
+          {
+            "label": "Active - Not Eligible",
+            "potensi": 401,
+            "cai": 79,
+            "pct": 19.7
+          },
+          {
+            "label": "Active - Never claim",
+            "potensi": 3,
+            "cai": 0,
+            "pct": 0.0
+          }
+        ],
+        "total_label": "TOTAL ACTIVE",
+        "total_potensi": 1542,
+        "total_cai": 380,
+        "total_pct": 24.6
+      },
+      {
+        "group": "Priority 3",
+        "subgroups": [
+          {
+            "label": "Finish - Eligible",
+            "potensi": 168,
+            "cai": 22,
+            "pct": 13.1
+          },
+          {
+            "label": "Finish - Not Eligible",
+            "potensi": 32,
+            "cai": 10,
+            "pct": 31.2
+          }
+        ],
+        "total_label": "TOTAL FINISH",
+        "total_potensi": 200,
+        "total_cai": 32,
+        "total_pct": 16.0
+      },
+      {
+        "group": "Priority 4",
+        "subgroups": [
+          {
+            "label": "Expired - Eligible",
+            "potensi": 229,
+            "cai": 24,
+            "pct": 10.5
+          },
+          {
+            "label": "Expired - Not Eligible",
+            "potensi": 173,
+            "cai": 33,
+            "pct": 19.1
+          },
+          {
+            "label": "Expired - Never claim",
+            "potensi": 2,
+            "cai": 0,
+            "pct": 0.0
+          }
+        ],
+        "total_label": "TOTAL EXPIRED",
+        "total_potensi": 404,
+        "total_cai": 57,
+        "total_pct": 14.1
+      },
+      {
+        "group": "Priority 5",
+        "subgroups": [
+          {
+            "label": "HOT",
+            "potensi": 33,
+            "cai": 7,
+            "pct": 21.2
+          },
+          {
+            "label": "Medium",
+            "potensi": 44,
+            "cai": 7,
+            "pct": 15.9
+          },
+          {
+            "label": "Low",
+            "potensi": 47,
+            "cai": 6,
+            "pct": 12.8
+          }
+        ],
+        "total_label": "TOTAL CRT MERDEKA",
+        "total_potensi": 124,
+        "total_cai": 20,
+        "total_pct": 16.1,
+        "title": "CRT > 8th Merdeka Motor (Pembelian Asal: MERDEKA \u2014 Kolom Judgement Cust)"
+      },
+      {
+        "group": "Priority 6",
+        "subgroups": [
+          {
+            "label": "HOT",
+            "potensi": 333,
+            "cai": 87,
+            "pct": 26.1
+          },
+          {
+            "label": "Medium",
+            "potensi": 388,
+            "cai": 70,
+            "pct": 18.0
+          },
+          {
+            "label": "Low",
+            "potensi": 959,
+            "cai": 110,
+            "pct": 11.5
+          }
+        ],
+        "total_label": "TOTAL CRT NON MERDEKA",
+        "total_potensi": 1680,
+        "total_cai": 267,
+        "total_pct": 15.9,
+        "title": "CRT > 8th All Penjualan (Pembelian Asal: Selain Merdeka \u2014 Kolom Judgement Cust)"
+      }
+    ],
+    "Q3": [
+      {
+        "group": "Priority 1",
+        "subgroups": [
+          {
+            "label": "Expired soon - Eligible",
+            "potensi": 14,
+            "cai": 5,
+            "pct": 35.7
+          },
+          {
+            "label": "Expired soon - Not Eligible",
+            "potensi": 52,
+            "cai": 15,
+            "pct": 28.8
+          },
+          {
+            "label": "Expired soon - Never claim",
+            "potensi": 2,
+            "cai": 1,
+            "pct": 50.0
+          }
+        ],
+        "total_label": "TOTAL EX SOON",
+        "total_potensi": 68,
+        "total_cai": 21,
+        "total_pct": 30.9
+      },
+      {
+        "group": "Priority 2",
+        "subgroups": [
+          {
+            "label": "Active - Eligible",
+            "potensi": 684,
+            "cai": 197,
+            "pct": 28.8
+          },
+          {
+            "label": "Active - Not Eligible",
+            "potensi": 421,
+            "cai": 75,
+            "pct": 17.8
+          },
+          {
+            "label": "Active - Never claim",
+            "potensi": 0,
+            "cai": 0,
+            "pct": 0
+          }
+        ],
+        "total_label": "TOTAL ACTIVE",
+        "total_potensi": 1105,
+        "total_cai": 272,
+        "total_pct": 24.6
+      },
+      {
+        "group": "Priority 3",
+        "subgroups": [
+          {
+            "label": "Finish - Eligible",
+            "potensi": 119,
+            "cai": 18,
+            "pct": 15.1
+          },
+          {
+            "label": "Finish - Not Eligible",
+            "potensi": 36,
+            "cai": 4,
+            "pct": 11.1
+          }
+        ],
+        "total_label": "TOTAL FINISH",
+        "total_potensi": 155,
+        "total_cai": 22,
+        "total_pct": 14.2
+      },
+      {
+        "group": "Priority 4",
+        "subgroups": [
+          {
+            "label": "Expired - Eligible",
+            "potensi": 152,
+            "cai": 13,
+            "pct": 8.6
+          },
+          {
+            "label": "Expired - Not Eligible",
+            "potensi": 208,
+            "cai": 19,
+            "pct": 9.1
+          },
+          {
+            "label": "Expired - Never claim",
+            "potensi": 0,
+            "cai": 0,
+            "pct": 0
+          }
+        ],
+        "total_label": "TOTAL EXPIRED",
+        "total_potensi": 360,
+        "total_cai": 32,
+        "total_pct": 8.9
+      },
+      {
+        "group": "Priority 5",
+        "subgroups": [
+          {
+            "label": "HOT",
+            "potensi": 39,
+            "cai": 6,
+            "pct": 15.4
+          },
+          {
+            "label": "Medium",
+            "potensi": 45,
+            "cai": 6,
+            "pct": 13.3
+          },
+          {
+            "label": "Low",
+            "potensi": 103,
+            "cai": 4,
+            "pct": 3.9
+          }
+        ],
+        "total_label": "TOTAL CRT MERDEKA",
+        "total_potensi": 187,
+        "total_cai": 16,
+        "total_pct": 8.6,
+        "title": "CRT > 8th Merdeka Motor (Pembelian Asal: MERDEKA \u2014 Kolom Judgement Cust)"
+      },
+      {
+        "group": "Priority 6",
+        "subgroups": [
+          {
+            "label": "HOT",
+            "potensi": 222,
+            "cai": 39,
+            "pct": 17.6
+          },
+          {
+            "label": "Medium",
+            "potensi": 242,
+            "cai": 33,
+            "pct": 13.6
+          },
+          {
+            "label": "Low",
+            "potensi": 724,
+            "cai": 57,
+            "pct": 7.9
+          }
+        ],
+        "total_label": "TOTAL CRT NON MERDEKA",
+        "total_potensi": 1188,
+        "total_cai": 129,
+        "total_pct": 10.9,
+        "title": "CRT > 8th All Penjualan (Pembelian Asal: Selain Merdeka \u2014 Kolom Judgement Cust)"
+      }
+    ]
+  }
+}

@@ -1,0 +1,5435 @@
+{
+  "meta": {
+    "title": "Dashboard Funnelling Bengkel Kiaracondong",
+    "updated_at": "2026-10-19T14:06:35.648161",
+    "year": 2026,
+    "valid_until": "Oktober 2026",
+    "active_months_count": 10
+  },
+  "monthly_summary": [
+    {
+      "month": "Jan",
+      "month_name": "Januari",
+      "cust_fu": 1527,
+      "contacted": 976,
+      "cai": 235,
+      "has_data": true
+    },
+    {
+      "month": "Feb",
+      "month_name": "Februari",
+      "cust_fu": 1391,
+      "contacted": 867,
+      "cai": 257,
+      "has_data": true
+    },
+    {
+      "month": "Mar",
+      "month_name": "Maret",
+      "cust_fu": 1308,
+      "contacted": 955,
+      "cai": 326,
+      "has_data": true
+    },
+    {
+      "month": "Apr",
+      "month_name": "April",
+      "cust_fu": 1216,
+      "contacted": 810,
+      "cai": 292,
+      "has_data": true
+    },
+    {
+      "month": "Mei",
+      "month_name": "Mei",
+      "cust_fu": 1165,
+      "contacted": 920,
+      "cai": 209,
+      "has_data": true
+    },
+    {
+      "month": "Jun",
+      "month_name": "Juni",
+      "cust_fu": 1444,
+      "contacted": 901,
+      "cai": 270,
+      "has_data": true
+    },
+    {
+      "month": "Jul",
+      "month_name": "Juli",
+      "cust_fu": 1528,
+      "contacted": 980,
+      "cai": 242,
+      "has_data": true
+    },
+    {
+      "month": "Agt",
+      "month_name": "Agustus",
+      "cust_fu": 1249,
+      "contacted": 807,
+      "cai": 249,
+      "has_data": true
+    },
+    {
+      "month": "Sep",
+      "month_name": "September",
+      "cust_fu": 1572,
+      "contacted": 926,
+      "cai": 266,
+      "has_data": true
+    },
+    {
+      "month": "Okt",
+      "month_name": "Oktober",
+      "cust_fu": 787,
+      "contacted": 591,
+      "cai": 157,
+      "has_data": true
+    },
+    {
+      "month": "Nov",
+      "month_name": "November",
+      "cust_fu": 111,
+      "contacted": 0,
+      "cai": 0,
+      "has_data": true
+    },
+    {
+      "month": "Des",
+      "month_name": "Desember",
+      "cust_fu": 45,
+      "contacted": 0,
+      "cai": 1,
+      "has_data": true
+    }
+  ],
+  "funnel_stages": {
+    "potency": 14472,
+    "cust_fu": 13187,
+    "connected": 12795,
+    "contacted": 8733,
+    "booking": 4065,
+    "cai": 2504
+  },
+  "not_cai_reasons": [
+    {
+      "reason": "Akan menghubungi Bengkel",
+      "count": 3036,
+      "percentage": 23.0
+    },
+    {
+      "reason": "Booking",
+      "count": 253,
+      "percentage": 1.9
+    },
+    {
+      "reason": "Bukan user",
+      "count": 6,
+      "percentage": 0.0
+    },
+    {
+      "reason": "Early",
+      "count": 1014,
+      "percentage": 7.7
+    },
+    {
+      "reason": "Kendaraan dijual",
+      "count": 158,
+      "percentage": 1.2
+    },
+    {
+      "reason": "Kendaraan operasional",
+      "count": 220,
+      "percentage": 1.7
+    },
+    {
+      "reason": "Lain-lain",
+      "count": 223,
+      "percentage": 1.7
+    },
+    {
+      "reason": "Late",
+      "count": 14,
+      "percentage": 0.1
+    },
+    {
+      "reason": "Lokasi",
+      "count": 863,
+      "percentage": 6.5
+    },
+    {
+      "reason": "Nomor tidak dapat dihubungi",
+      "count": 397,
+      "percentage": 3.0
+    },
+    {
+      "reason": "Service ditempat lain",
+      "count": 1177,
+      "percentage": 8.9
+    },
+    {
+      "reason": "Tidak diangkat",
+      "count": 4607,
+      "percentage": 34.9
+    }
+  ],
+  "priority_segments": [
+    {
+      "group": "Priority 1",
+      "subgroups": [
+        {
+          "label": "Expired soon - Eligible",
+          "potensi": 76,
+          "cai": 28,
+          "pct": 36.8
+        },
+        {
+          "label": "Expired soon - Not Eligible",
+          "potensi": 171,
+          "cai": 41,
+          "pct": 24.0
+        },
+        {
+          "label": "Expired soon - Never claim",
+          "potensi": 12,
+          "cai": 0,
+          "pct": 0.0
+        }
+      ],
+      "total_label": "TOTAL EX SOON",
+      "total_potensi": 259,
+      "total_cai": 69,
+      "total_pct": 26.6
+    },
+    {
+      "group": "Priority 2",
+      "subgroups": [
+        {
+          "label": "Active - Eligible",
+          "potensi": 3624,
+          "cai": 924,
+          "pct": 25.5
+        },
+        {
+          "label": "Active - Not Eligible",
+          "potensi": 1628,
+          "cai": 287,
+          "pct": 17.6
+        },
+        {
+          "label": "Active - Never claim",
+          "potensi": 124,
+          "cai": 38,
+          "pct": 30.6
+        }
+      ],
+      "total_label": "TOTAL ACTIVE",
+      "total_potensi": 5376,
+      "total_cai": 1249,
+      "total_pct": 23.2
+    },
+    {
+      "group": "Priority 3",
+      "subgroups": [
+        {
+          "label": "Finish - Eligible",
+          "potensi": 501,
+          "cai": 79,
+          "pct": 15.8
+        },
+        {
+          "label": "Finish - Not Eligible",
+          "potensi": 204,
+          "cai": 32,
+          "pct": 15.7
+        }
+      ],
+      "total_label": "TOTAL FINISH",
+      "total_potensi": 705,
+      "total_cai": 111,
+      "total_pct": 15.7
+    },
+    {
+      "group": "Priority 4",
+      "subgroups": [
+        {
+          "label": "Expired - Eligible",
+          "potensi": 709,
+          "cai": 82,
+          "pct": 11.6
+        },
+        {
+          "label": "Expired - Not Eligible",
+          "potensi": 731,
+          "cai": 97,
+          "pct": 13.3
+        },
+        {
+          "label": "Expired - Never claim",
+          "potensi": 63,
+          "cai": 5,
+          "pct": 7.9
+        }
+      ],
+      "total_label": "TOTAL EXPIRED",
+      "total_potensi": 1503,
+      "total_cai": 184,
+      "total_pct": 12.2
+    },
+    {
+      "group": "Priority 5",
+      "subgroups": [
+        {
+          "label": "HOT",
+          "potensi": 72,
+          "cai": 13,
+          "pct": 18.1
+        },
+        {
+          "label": "Medium",
+          "potensi": 89,
+          "cai": 13,
+          "pct": 14.6
+        },
+        {
+          "label": "Low",
+          "potensi": 150,
+          "cai": 10,
+          "pct": 6.7
+        }
+      ],
+      "total_label": "TOTAL CRT MERDEKA",
+      "total_potensi": 311,
+      "total_cai": 36,
+      "total_pct": 11.6,
+      "title": "CRT > 8th Merdeka Motor (Pembelian Asal: MERDEKA — Kolom Judgement Cust)"
+    },
+    {
+      "group": "Priority 6",
+      "subgroups": [
+        {
+          "label": "HOT",
+          "potensi": 982,
+          "cai": 234,
+          "pct": 23.8
+        },
+        {
+          "label": "Medium",
+          "potensi": 1074,
+          "cai": 195,
+          "pct": 18.2
+        },
+        {
+          "label": "Low",
+          "potensi": 2992,
+          "cai": 320,
+          "pct": 10.7
+        }
+      ],
+      "total_label": "TOTAL CRT NON MERDEKA",
+      "total_potensi": 5048,
+      "total_cai": 749,
+      "total_pct": 14.8,
+      "title": "CRT > 8th All Penjualan (Pembelian Asal: Selain Merdeka — Kolom Judgement Cust)"
+    }
+  ],
+  "potensi_by_program": {
+    "t_care": {
+      "title": "I. T-CARE",
+      "potency": 5555,
+      "cust_fu": 5033,
+      "connected": 4894,
+      "contacted": 3646,
+      "booking": 1082,
+      "cai": 1123
+    },
+    "t_care_lite_plus": {
+      "title": "II. T-CARE Lite +",
+      "potency": 601,
+      "cust_fu": 563,
+      "connected": 553,
+      "contacted": 409,
+      "booking": 142,
+      "cai": 140
+    },
+    "t_care_lite": {
+      "title": "III. T-CARE Lite",
+      "potency": 749,
+      "cust_fu": 684,
+      "connected": 661,
+      "contacted": 447,
+      "booking": 143,
+      "cai": 133
+    },
+    "care_x": {
+      "title": "IV. Potensi CARE-X",
+      "potency": 5993,
+      "cust_fu": 5324,
+      "connected": 5137,
+      "contacted": 3191,
+      "booking": 792,
+      "cai": 832
+    }
+  },
+  "status_booking": {
+    "booking": {
+      "count": 2159,
+      "pct": 100
+    },
+    "show_cai": {
+      "count": 1987,
+      "pct": 92.0
+    },
+    "open": {
+      "count": 172,
+      "pct": 8.0,
+      "note": "Customer yang jawab Booking tapi Not CAI (perlu follow up ulang)"
+    }
+  },
+  "sa_breakdown": {
+    "DIDIN": {
+      "monthly": [
+        {
+          "month": "Jan",
+          "potensi": 578,
+          "contacted": 333,
+          "cai": 95,
+          "contrib_pct": 40.4,
+          "has_data": true
+        },
+        {
+          "month": "Feb",
+          "potensi": 574,
+          "contacted": 349,
+          "cai": 92,
+          "contrib_pct": 35.8,
+          "has_data": true
+        },
+        {
+          "month": "Mar",
+          "potensi": 547,
+          "contacted": 398,
+          "cai": 137,
+          "contrib_pct": 42.2,
+          "has_data": true
+        },
+        {
+          "month": "Apr",
+          "potensi": 515,
+          "contacted": 346,
+          "cai": 120,
+          "contrib_pct": 41.1,
+          "has_data": true
+        },
+        {
+          "month": "Mei",
+          "potensi": 376,
+          "contacted": 286,
+          "cai": 81,
+          "contrib_pct": 39.3,
+          "has_data": true
+        },
+        {
+          "month": "Jun",
+          "potensi": 622,
+          "contacted": 341,
+          "cai": 116,
+          "contrib_pct": 43.0,
+          "has_data": true
+        },
+        {
+          "month": "Jul",
+          "potensi": 577,
+          "contacted": 351,
+          "cai": 97,
+          "contrib_pct": 40.2,
+          "has_data": true
+        },
+        {
+          "month": "Agt",
+          "potensi": 454,
+          "contacted": 281,
+          "cai": 91,
+          "contrib_pct": 36.5,
+          "has_data": true
+        },
+        {
+          "month": "Sep",
+          "potensi": 592,
+          "contacted": 319,
+          "cai": 94,
+          "contrib_pct": 35.3,
+          "has_data": true
+        },
+        {
+          "month": "Okt",
+          "potensi": 529,
+          "contacted": 201,
+          "cai": 55,
+          "contrib_pct": 35.3,
+          "has_data": true
+        },
+        {
+          "month": "Nov",
+          "potensi": 44,
+          "contacted": 0,
+          "cai": 0,
+          "contrib_pct": 0,
+          "has_data": true
+        },
+        {
+          "month": "Des",
+          "potensi": 13,
+          "contacted": 0,
+          "cai": 0,
+          "contrib_pct": 0.0,
+          "has_data": true
+        }
+      ]
+    },
+    "FICKY": {
+      "monthly": [
+        {
+          "month": "Jan",
+          "potensi": 552,
+          "contacted": 388,
+          "cai": 73,
+          "contrib_pct": 31.1,
+          "has_data": true
+        },
+        {
+          "month": "Feb",
+          "potensi": 349,
+          "contacted": 220,
+          "cai": 69,
+          "contrib_pct": 26.8,
+          "has_data": true
+        },
+        {
+          "month": "Mar",
+          "potensi": 335,
+          "contacted": 232,
+          "cai": 72,
+          "contrib_pct": 22.2,
+          "has_data": true
+        },
+        {
+          "month": "Apr",
+          "potensi": 300,
+          "contacted": 185,
+          "cai": 66,
+          "contrib_pct": 22.6,
+          "has_data": true
+        },
+        {
+          "month": "Mei",
+          "potensi": 231,
+          "contacted": 182,
+          "cai": 51,
+          "contrib_pct": 24.8,
+          "has_data": true
+        },
+        {
+          "month": "Jun",
+          "potensi": 557,
+          "contacted": 325,
+          "cai": 86,
+          "contrib_pct": 31.9,
+          "has_data": true
+        },
+        {
+          "month": "Jul",
+          "potensi": 563,
+          "contacted": 388,
+          "cai": 78,
+          "contrib_pct": 32.4,
+          "has_data": true
+        },
+        {
+          "month": "Agt",
+          "potensi": 470,
+          "contacted": 310,
+          "cai": 81,
+          "contrib_pct": 32.5,
+          "has_data": true
+        },
+        {
+          "month": "Sep",
+          "potensi": 559,
+          "contacted": 357,
+          "cai": 93,
+          "contrib_pct": 35.0,
+          "has_data": true
+        },
+        {
+          "month": "Okt",
+          "potensi": 450,
+          "contacted": 196,
+          "cai": 64,
+          "contrib_pct": 41.0,
+          "has_data": true
+        },
+        {
+          "month": "Nov",
+          "potensi": 33,
+          "contacted": 0,
+          "cai": 0,
+          "contrib_pct": 0,
+          "has_data": true
+        },
+        {
+          "month": "Des",
+          "potensi": 13,
+          "contacted": 0,
+          "cai": 1,
+          "contrib_pct": 100.0,
+          "has_data": true
+        }
+      ]
+    },
+    "ACEP": {
+      "monthly": [
+        {
+          "month": "Jan",
+          "potensi": 423,
+          "contacted": 255,
+          "cai": 67,
+          "contrib_pct": 28.5,
+          "has_data": true
+        },
+        {
+          "month": "Feb",
+          "potensi": 467,
+          "contacted": 298,
+          "cai": 96,
+          "contrib_pct": 37.4,
+          "has_data": true
+        },
+        {
+          "month": "Mar",
+          "potensi": 471,
+          "contacted": 324,
+          "cai": 116,
+          "contrib_pct": 35.7,
+          "has_data": true
+        },
+        {
+          "month": "Apr",
+          "potensi": 401,
+          "contacted": 279,
+          "cai": 106,
+          "contrib_pct": 36.3,
+          "has_data": true
+        },
+        {
+          "month": "Mei",
+          "potensi": 320,
+          "contacted": 249,
+          "cai": 74,
+          "contrib_pct": 35.9,
+          "has_data": true
+        },
+        {
+          "month": "Jun",
+          "potensi": 415,
+          "contacted": 234,
+          "cai": 68,
+          "contrib_pct": 25.2,
+          "has_data": true
+        },
+        {
+          "month": "Jul",
+          "potensi": 384,
+          "contacted": 238,
+          "cai": 66,
+          "contrib_pct": 27.4,
+          "has_data": true
+        },
+        {
+          "month": "Agt",
+          "potensi": 348,
+          "contacted": 215,
+          "cai": 77,
+          "contrib_pct": 30.9,
+          "has_data": true
+        },
+        {
+          "month": "Sep",
+          "potensi": 421,
+          "contacted": 250,
+          "cai": 79,
+          "contrib_pct": 29.7,
+          "has_data": true
+        },
+        {
+          "month": "Okt",
+          "potensi": 403,
+          "contacted": 193,
+          "cai": 37,
+          "contrib_pct": 23.7,
+          "has_data": true
+        },
+        {
+          "month": "Nov",
+          "potensi": 34,
+          "contacted": 0,
+          "cai": 0,
+          "contrib_pct": 0,
+          "has_data": true
+        },
+        {
+          "month": "Des",
+          "potensi": 19,
+          "contacted": 0,
+          "cai": 0,
+          "contrib_pct": 0.0,
+          "has_data": true
+        }
+      ]
+    },
+    "ALL": {
+      "monthly": [
+        {
+          "month": "Jan",
+          "contacted": 976,
+          "cai": 235,
+          "contrib_pct": 100.0,
+          "didin_cai": 95,
+          "didin_cnt": 333,
+          "didin_contrib": 40.4,
+          "ficky_cai": 73,
+          "ficky_cnt": 388,
+          "ficky_contrib": 31.1,
+          "acep_cai": 67,
+          "acep_cnt": 255,
+          "acep_contrib": 28.5,
+          "has_data": true
+        },
+        {
+          "month": "Feb",
+          "contacted": 867,
+          "cai": 257,
+          "contrib_pct": 100.0,
+          "didin_cai": 92,
+          "didin_cnt": 349,
+          "didin_contrib": 35.8,
+          "ficky_cai": 69,
+          "ficky_cnt": 220,
+          "ficky_contrib": 26.8,
+          "acep_cai": 96,
+          "acep_cnt": 298,
+          "acep_contrib": 37.4,
+          "has_data": true
+        },
+        {
+          "month": "Mar",
+          "contacted": 954,
+          "cai": 325,
+          "contrib_pct": 100.0,
+          "didin_cai": 137,
+          "didin_cnt": 398,
+          "didin_contrib": 42.2,
+          "ficky_cai": 72,
+          "ficky_cnt": 232,
+          "ficky_contrib": 22.2,
+          "acep_cai": 116,
+          "acep_cnt": 324,
+          "acep_contrib": 35.7,
+          "has_data": true
+        },
+        {
+          "month": "Apr",
+          "contacted": 810,
+          "cai": 292,
+          "contrib_pct": 100.0,
+          "didin_cai": 120,
+          "didin_cnt": 346,
+          "didin_contrib": 41.1,
+          "ficky_cai": 66,
+          "ficky_cnt": 185,
+          "ficky_contrib": 22.6,
+          "acep_cai": 106,
+          "acep_cnt": 279,
+          "acep_contrib": 36.3,
+          "has_data": true
+        },
+        {
+          "month": "Mei",
+          "contacted": 717,
+          "cai": 206,
+          "contrib_pct": 100.0,
+          "didin_cai": 81,
+          "didin_cnt": 286,
+          "didin_contrib": 39.3,
+          "ficky_cai": 51,
+          "ficky_cnt": 182,
+          "ficky_contrib": 24.8,
+          "acep_cai": 74,
+          "acep_cnt": 249,
+          "acep_contrib": 35.9,
+          "has_data": true
+        },
+        {
+          "month": "Jun",
+          "contacted": 900,
+          "cai": 270,
+          "contrib_pct": 100.0,
+          "didin_cai": 116,
+          "didin_cnt": 341,
+          "didin_contrib": 43.0,
+          "ficky_cai": 86,
+          "ficky_cnt": 325,
+          "ficky_contrib": 31.9,
+          "acep_cai": 68,
+          "acep_cnt": 234,
+          "acep_contrib": 25.2,
+          "has_data": true
+        },
+        {
+          "month": "Jul",
+          "contacted": 977,
+          "cai": 241,
+          "contrib_pct": 100.0,
+          "didin_cai": 97,
+          "didin_cnt": 351,
+          "didin_contrib": 40.2,
+          "ficky_cai": 78,
+          "ficky_cnt": 388,
+          "ficky_contrib": 32.4,
+          "acep_cai": 66,
+          "acep_cnt": 238,
+          "acep_contrib": 27.4,
+          "has_data": true
+        },
+        {
+          "month": "Agt",
+          "contacted": 806,
+          "cai": 249,
+          "contrib_pct": 100.0,
+          "didin_cai": 91,
+          "didin_cnt": 281,
+          "didin_contrib": 36.5,
+          "ficky_cai": 81,
+          "ficky_cnt": 310,
+          "ficky_contrib": 32.5,
+          "acep_cai": 77,
+          "acep_cnt": 215,
+          "acep_contrib": 30.9,
+          "has_data": true
+        },
+        {
+          "month": "Sep",
+          "contacted": 926,
+          "cai": 266,
+          "contrib_pct": 100.0,
+          "didin_cai": 94,
+          "didin_cnt": 319,
+          "didin_contrib": 35.3,
+          "ficky_cai": 93,
+          "ficky_cnt": 357,
+          "ficky_contrib": 35.0,
+          "acep_cai": 79,
+          "acep_cnt": 250,
+          "acep_contrib": 29.7,
+          "has_data": true
+        },
+        {
+          "month": "Okt",
+          "contacted": 590,
+          "cai": 156,
+          "contrib_pct": 100.0,
+          "didin_cai": 55,
+          "didin_cnt": 201,
+          "didin_contrib": 35.3,
+          "ficky_cai": 64,
+          "ficky_cnt": 196,
+          "ficky_contrib": 41.0,
+          "acep_cai": 37,
+          "acep_cnt": 193,
+          "acep_contrib": 23.7,
+          "has_data": true
+        },
+        {
+          "month": "Nov",
+          "contacted": 0,
+          "cai": 0,
+          "contrib_pct": 0,
+          "didin_cai": 0,
+          "didin_cnt": 0,
+          "didin_contrib": 0,
+          "ficky_cai": 0,
+          "ficky_cnt": 0,
+          "ficky_contrib": 0,
+          "acep_cai": 0,
+          "acep_cnt": 0,
+          "acep_contrib": 0,
+          "has_data": true
+        },
+        {
+          "month": "Des",
+          "contacted": 0,
+          "cai": 1,
+          "contrib_pct": 100.0,
+          "didin_cai": 0,
+          "didin_cnt": 0,
+          "didin_contrib": 0.0,
+          "ficky_cai": 1,
+          "ficky_cnt": 0,
+          "ficky_contrib": 100.0,
+          "acep_cai": 0,
+          "acep_cnt": 0,
+          "acep_contrib": 0.0,
+          "has_data": true
+        }
+      ]
+    }
+  },
+  "mra_breakdown": {
+    "RANI": {
+      "ytd": {
+        "potensi": 7179,
+        "fu": 6693,
+        "contacted": 4589,
+        "cai": 1348
+      },
+      "quarterly": {
+        "Q1": {
+          "potensi": 2201,
+          "fu": 2144,
+          "contacted": 1511,
+          "cai": 462
+        },
+        "Q2": {
+          "potensi": 1984,
+          "fu": 1937,
+          "contacted": 1385,
+          "cai": 429
+        },
+        "Q3": {
+          "potensi": 2242,
+          "fu": 2231,
+          "contacted": 1389,
+          "cai": 374
+        },
+        "Q4": {
+          "potensi": 752,
+          "fu": 381,
+          "contacted": 304,
+          "cai": 83
+        }
+      },
+      "monthly": {
+        "Jan": {
+          "potensi": 789,
+          "fu": 762,
+          "contacted": 540,
+          "cai": 154
+        },
+        "Feb": {
+          "potensi": 697,
+          "fu": 697,
+          "contacted": 456,
+          "cai": 128
+        },
+        "Mar": {
+          "potensi": 715,
+          "fu": 685,
+          "contacted": 515,
+          "cai": 180
+        },
+        "Apr": {
+          "potensi": 611,
+          "fu": 611,
+          "contacted": 436,
+          "cai": 158
+        },
+        "Mei": {
+          "potensi": 591,
+          "fu": 582,
+          "contacted": 493,
+          "cai": 122
+        },
+        "Jun": {
+          "potensi": 782,
+          "fu": 744,
+          "contacted": 456,
+          "cai": 149
+        },
+        "Jul": {
+          "potensi": 831,
+          "fu": 831,
+          "contacted": 529,
+          "cai": 124
+        },
+        "Agt": {
+          "potensi": 629,
+          "fu": 618,
+          "contacted": 403,
+          "cai": 114
+        },
+        "Sep": {
+          "potensi": 782,
+          "fu": 782,
+          "contacted": 457,
+          "cai": 136
+        },
+        "Okt": {
+          "potensi": 683,
+          "fu": 381,
+          "contacted": 304,
+          "cai": 82
+        },
+        "Nov": {
+          "potensi": 46
+        },
+        "Des": {
+          "potensi": 23,
+          "cai": 1
+        }
+      }
+    },
+    "NURI": {
+      "ytd": {
+        "potensi": 7033,
+        "fu": 6493,
+        "contacted": 4143,
+        "cai": 1156
+      },
+      "quarterly": {
+        "Q1": {
+          "potensi": 2098,
+          "fu": 2082,
+          "contacted": 1287,
+          "cai": 356
+        },
+        "Q2": {
+          "potensi": 2017,
+          "fu": 1888,
+          "contacted": 1246,
+          "cai": 342
+        },
+        "Q3": {
+          "potensi": 2131,
+          "fu": 2117,
+          "contacted": 1323,
+          "cai": 383
+        },
+        "Q4": {
+          "potensi": 787,
+          "fu": 406,
+          "contacted": 287,
+          "cai": 75
+        }
+      },
+      "monthly": {
+        "Jan": {
+          "potensi": 765,
+          "fu": 765,
+          "contacted": 436,
+          "cai": 81
+        },
+        "Feb": {
+          "potensi": 694,
+          "fu": 694,
+          "contacted": 411,
+          "cai": 129
+        },
+        "Mar": {
+          "potensi": 639,
+          "fu": 623,
+          "contacted": 440,
+          "cai": 146
+        },
+        "Apr": {
+          "potensi": 605,
+          "fu": 605,
+          "contacted": 374,
+          "cai": 134
+        },
+        "Mei": {
+          "potensi": 598,
+          "fu": 583,
+          "contacted": 427,
+          "cai": 87
+        },
+        "Jun": {
+          "potensi": 814,
+          "fu": 700,
+          "contacted": 445,
+          "cai": 121
+        },
+        "Jul": {
+          "potensi": 697,
+          "fu": 697,
+          "contacted": 451,
+          "cai": 118
+        },
+        "Agt": {
+          "potensi": 644,
+          "fu": 630,
+          "contacted": 403,
+          "cai": 135
+        },
+        "Sep": {
+          "potensi": 790,
+          "fu": 790,
+          "contacted": 469,
+          "cai": 130
+        },
+        "Okt": {
+          "potensi": 700,
+          "fu": 406,
+          "contacted": 287,
+          "cai": 75
+        },
+        "Nov": {
+          "potensi": 65
+        },
+        "Des": {
+          "potensi": 22
+        }
+      }
+    }
+  },
+  "potensi_ths": {
+    "ytd": {
+      "potensi": 1113,
+      "contacted": 856,
+      "cai": 131
+    },
+    "quarterly": {
+      "Q1": {
+        "potensi": 191,
+        "contacted": 164,
+        "cai": 17
+      },
+      "Q2": {
+        "potensi": 181,
+        "contacted": 131,
+        "cai": 14
+      },
+      "Q3": {
+        "potensi": 608,
+        "contacted": 490,
+        "cai": 79
+      },
+      "Q4": {
+        "potensi": 133,
+        "contacted": 71,
+        "cai": 21
+      }
+    },
+    "monthly": [
+      {
+        "month": "Jan",
+        "potensi": 191,
+        "contacted": 164,
+        "cai": 17,
+        "has_data": true
+      },
+      {
+        "month": "Feb",
+        "potensi": 0,
+        "contacted": 0,
+        "cai": 0,
+        "has_data": true
+      },
+      {
+        "month": "Mar",
+        "potensi": 0,
+        "contacted": 0,
+        "cai": 0,
+        "has_data": true
+      },
+      {
+        "month": "Apr",
+        "potensi": 0,
+        "contacted": 0,
+        "cai": 0,
+        "has_data": true
+      },
+      {
+        "month": "Mei",
+        "potensi": 0,
+        "contacted": 0,
+        "cai": 0,
+        "has_data": true
+      },
+      {
+        "month": "Jun",
+        "potensi": 181,
+        "contacted": 131,
+        "cai": 14,
+        "has_data": true
+      },
+      {
+        "month": "Jul",
+        "potensi": 237,
+        "contacted": 199,
+        "cai": 31,
+        "has_data": true
+      },
+      {
+        "month": "Agt",
+        "potensi": 169,
+        "contacted": 131,
+        "cai": 25,
+        "has_data": true
+      },
+      {
+        "month": "Sep",
+        "potensi": 202,
+        "contacted": 160,
+        "cai": 23,
+        "has_data": true
+      },
+      {
+        "month": "Okt",
+        "potensi": 122,
+        "contacted": 71,
+        "cai": 21,
+        "has_data": true
+      },
+      {
+        "month": "Nov",
+        "potensi": 6,
+        "contacted": 0,
+        "cai": 0,
+        "has_data": true
+      },
+      {
+        "month": "Des",
+        "potensi": 5,
+        "contacted": 0,
+        "cai": 0,
+        "has_data": true
+      }
+    ]
+  },
+  "funnel_stages_by_period": {
+    "all": {
+      "potency": 14472,
+      "cust_fu": 13187,
+      "connected": 12795,
+      "contacted": 8733,
+      "booking": 4065,
+      "cai": 2504
+    },
+    "Q1": {
+      "potency": 4299,
+      "cust_fu": 4226,
+      "connected": 4029,
+      "contacted": 2798,
+      "booking": 1168,
+      "cai": 818
+    },
+    "Q2": {
+      "potency": 4001,
+      "cust_fu": 3825,
+      "connected": 3751,
+      "contacted": 2631,
+      "booking": 1123,
+      "cai": 771
+    },
+    "Q3": {
+      "potency": 4632,
+      "cust_fu": 4348,
+      "connected": 4237,
+      "contacted": 2712,
+      "booking": 1314,
+      "cai": 756
+    },
+    "Q4": {
+      "potency": 1540,
+      "cust_fu": 788,
+      "connected": 778,
+      "contacted": 592,
+      "booking": 460,
+      "cai": 159
+    },
+    "Jan": {
+      "potency": 1554,
+      "cust_fu": 1527,
+      "connected": 1433,
+      "contacted": 976,
+      "booking": 407,
+      "cai": 235
+    },
+    "Feb": {
+      "potency": 1391,
+      "cust_fu": 1391,
+      "connected": 1343,
+      "contacted": 867,
+      "booking": 382,
+      "cai": 257
+    },
+    "Mar": {
+      "potency": 1354,
+      "cust_fu": 1308,
+      "connected": 1253,
+      "contacted": 955,
+      "booking": 379,
+      "cai": 326
+    },
+    "Apr": {
+      "potency": 1216,
+      "cust_fu": 1216,
+      "connected": 1195,
+      "contacted": 810,
+      "booking": 372,
+      "cai": 292
+    },
+    "Mei": {
+      "potency": 1189,
+      "cust_fu": 1165,
+      "connected": 1138,
+      "contacted": 920,
+      "booking": 365,
+      "cai": 209
+    },
+    "Jun": {
+      "potency": 1596,
+      "cust_fu": 1444,
+      "connected": 1418,
+      "contacted": 901,
+      "booking": 386,
+      "cai": 270
+    },
+    "Jul": {
+      "potency": 1528,
+      "cust_fu": 1528,
+      "connected": 1475,
+      "contacted": 980,
+      "booking": 413,
+      "cai": 242
+    },
+    "Agt": {
+      "potency": 1274,
+      "cust_fu": 1249,
+      "connected": 1226,
+      "contacted": 807,
+      "booking": 381,
+      "cai": 249
+    },
+    "Sep": {
+      "potency": 1572,
+      "cust_fu": 1572,
+      "connected": 1537,
+      "contacted": 926,
+      "booking": 504,
+      "cai": 266
+    },
+    "Okt": {
+      "potency": 1383,
+      "cust_fu": 787,
+      "connected": 777,
+      "contacted": 591,
+      "booking": 444,
+      "cai": 157
+    },
+    "Nov": {
+      "potency": 111,
+      "cust_fu": 111,
+      "connected": 0,
+      "contacted": 0,
+      "booking": 8,
+      "cai": 0
+    },
+    "Des": {
+      "potency": 45,
+      "cust_fu": 45,
+      "connected": 0,
+      "contacted": 0,
+      "booking": 7,
+      "cai": 1
+    }
+  },
+  "not_cai_reasons_by_period": {
+    "all": [
+      {
+        "reason": "Akan menghubungi Bengkel",
+        "count": 3036,
+        "percentage": 23.0
+      },
+      {
+        "reason": "Booking",
+        "count": 253,
+        "percentage": 1.9
+      },
+      {
+        "reason": "Bukan user",
+        "count": 6,
+        "percentage": 0.0
+      },
+      {
+        "reason": "Early",
+        "count": 1014,
+        "percentage": 7.7
+      },
+      {
+        "reason": "Kendaraan dijual",
+        "count": 158,
+        "percentage": 1.2
+      },
+      {
+        "reason": "Kendaraan operasional",
+        "count": 220,
+        "percentage": 1.7
+      },
+      {
+        "reason": "Lain-lain",
+        "count": 223,
+        "percentage": 1.7
+      },
+      {
+        "reason": "Late",
+        "count": 14,
+        "percentage": 0.1
+      },
+      {
+        "reason": "Lokasi",
+        "count": 863,
+        "percentage": 6.5
+      },
+      {
+        "reason": "Nomor tidak dapat dihubungi",
+        "count": 397,
+        "percentage": 3.0
+      },
+      {
+        "reason": "Service ditempat lain",
+        "count": 1177,
+        "percentage": 8.9
+      },
+      {
+        "reason": "Tidak diangkat",
+        "count": 4607,
+        "percentage": 34.9
+      }
+    ],
+    "Q1": [
+      {
+        "reason": "Akan menghubungi Bengkel",
+        "count": 1075,
+        "percentage": 25.4
+      },
+      {
+        "reason": "Booking",
+        "count": 74,
+        "percentage": 1.8
+      },
+      {
+        "reason": "Bukan user",
+        "count": 1,
+        "percentage": 0.0
+      },
+      {
+        "reason": "Early",
+        "count": 329,
+        "percentage": 7.8
+      },
+      {
+        "reason": "Kendaraan dijual",
+        "count": 51,
+        "percentage": 1.2
+      },
+      {
+        "reason": "Kendaraan operasional",
+        "count": 34,
+        "percentage": 0.8
+      },
+      {
+        "reason": "Lain-lain",
+        "count": 3,
+        "percentage": 0.1
+      },
+      {
+        "reason": "Late",
+        "count": 2,
+        "percentage": 0.0
+      },
+      {
+        "reason": "Lokasi",
+        "count": 226,
+        "percentage": 5.3
+      },
+      {
+        "reason": "Nomor tidak dapat dihubungi",
+        "count": 196,
+        "percentage": 4.6
+      },
+      {
+        "reason": "Service ditempat lain",
+        "count": 229,
+        "percentage": 5.4
+      },
+      {
+        "reason": "Tidak diangkat",
+        "count": 1261,
+        "percentage": 29.8
+      }
+    ],
+    "Q2": [
+      {
+        "reason": "Akan menghubungi Bengkel",
+        "count": 902,
+        "percentage": 23.6
+      },
+      {
+        "reason": "Booking",
+        "count": 42,
+        "percentage": 1.1
+      },
+      {
+        "reason": "Bukan user",
+        "count": 3,
+        "percentage": 0.1
+      },
+      {
+        "reason": "Early",
+        "count": 268,
+        "percentage": 7.0
+      },
+      {
+        "reason": "Kendaraan dijual",
+        "count": 51,
+        "percentage": 1.3
+      },
+      {
+        "reason": "Kendaraan operasional",
+        "count": 48,
+        "percentage": 1.3
+      },
+      {
+        "reason": "Lain-lain",
+        "count": 14,
+        "percentage": 0.4
+      },
+      {
+        "reason": "Late",
+        "count": 2,
+        "percentage": 0.1
+      },
+      {
+        "reason": "Lokasi",
+        "count": 249,
+        "percentage": 6.5
+      },
+      {
+        "reason": "Nomor tidak dapat dihubungi",
+        "count": 74,
+        "percentage": 1.9
+      },
+      {
+        "reason": "Service ditempat lain",
+        "count": 422,
+        "percentage": 11.0
+      },
+      {
+        "reason": "Tidak diangkat",
+        "count": 1155,
+        "percentage": 30.2
+      }
+    ],
+    "Q3": [
+      {
+        "reason": "Akan menghubungi Bengkel",
+        "count": 802,
+        "percentage": 18.4
+      },
+      {
+        "reason": "Booking",
+        "count": 84,
+        "percentage": 1.9
+      },
+      {
+        "reason": "Bukan user",
+        "count": 0,
+        "percentage": 0.0
+      },
+      {
+        "reason": "Early",
+        "count": 336,
+        "percentage": 7.7
+      },
+      {
+        "reason": "Kendaraan dijual",
+        "count": 49,
+        "percentage": 1.1
+      },
+      {
+        "reason": "Kendaraan operasional",
+        "count": 105,
+        "percentage": 2.4
+      },
+      {
+        "reason": "Lain-lain",
+        "count": 37,
+        "percentage": 0.9
+      },
+      {
+        "reason": "Late",
+        "count": 5,
+        "percentage": 0.1
+      },
+      {
+        "reason": "Lokasi",
+        "count": 253,
+        "percentage": 5.8
+      },
+      {
+        "reason": "Nomor tidak dapat dihubungi",
+        "count": 113,
+        "percentage": 2.6
+      },
+      {
+        "reason": "Service ditempat lain",
+        "count": 400,
+        "percentage": 9.2
+      },
+      {
+        "reason": "Tidak diangkat",
+        "count": 1692,
+        "percentage": 38.9
+      }
+    ],
+    "Q4": [
+      {
+        "reason": "Akan menghubungi Bengkel",
+        "count": 257,
+        "percentage": 32.6
+      },
+      {
+        "reason": "Booking",
+        "count": 53,
+        "percentage": 6.7
+      },
+      {
+        "reason": "Bukan user",
+        "count": 2,
+        "percentage": 0.3
+      },
+      {
+        "reason": "Early",
+        "count": 81,
+        "percentage": 10.3
+      },
+      {
+        "reason": "Kendaraan dijual",
+        "count": 7,
+        "percentage": 0.9
+      },
+      {
+        "reason": "Kendaraan operasional",
+        "count": 33,
+        "percentage": 4.2
+      },
+      {
+        "reason": "Lain-lain",
+        "count": 169,
+        "percentage": 21.4
+      },
+      {
+        "reason": "Late",
+        "count": 5,
+        "percentage": 0.6
+      },
+      {
+        "reason": "Lokasi",
+        "count": 135,
+        "percentage": 17.1
+      },
+      {
+        "reason": "Nomor tidak dapat dihubungi",
+        "count": 14,
+        "percentage": 1.8
+      },
+      {
+        "reason": "Service ditempat lain",
+        "count": 126,
+        "percentage": 16.0
+      },
+      {
+        "reason": "Tidak diangkat",
+        "count": 499,
+        "percentage": 63.3
+      }
+    ],
+    "Jan": [
+      {
+        "reason": "Akan menghubungi Bengkel",
+        "count": 385,
+        "percentage": 25.2
+      },
+      {
+        "reason": "Booking",
+        "count": 17,
+        "percentage": 1.1
+      },
+      {
+        "reason": "Bukan user",
+        "count": 1,
+        "percentage": 0.1
+      },
+      {
+        "reason": "Early",
+        "count": 126,
+        "percentage": 8.3
+      },
+      {
+        "reason": "Kendaraan dijual",
+        "count": 21,
+        "percentage": 1.4
+      },
+      {
+        "reason": "Kendaraan operasional",
+        "count": 4,
+        "percentage": 0.3
+      },
+      {
+        "reason": "Lain-lain",
+        "count": 0,
+        "percentage": 0.0
+      },
+      {
+        "reason": "Late",
+        "count": 0,
+        "percentage": 0.0
+      },
+      {
+        "reason": "Lokasi",
+        "count": 107,
+        "percentage": 7.0
+      },
+      {
+        "reason": "Nomor tidak dapat dihubungi",
+        "count": 93,
+        "percentage": 6.1
+      },
+      {
+        "reason": "Service ditempat lain",
+        "count": 98,
+        "percentage": 6.4
+      },
+      {
+        "reason": "Tidak diangkat",
+        "count": 467,
+        "percentage": 30.6
+      }
+    ],
+    "Feb": [
+      {
+        "reason": "Akan menghubungi Bengkel",
+        "count": 317,
+        "percentage": 22.8
+      },
+      {
+        "reason": "Booking",
+        "count": 25,
+        "percentage": 1.8
+      },
+      {
+        "reason": "Bukan user",
+        "count": 0,
+        "percentage": 0.0
+      },
+      {
+        "reason": "Early",
+        "count": 118,
+        "percentage": 8.5
+      },
+      {
+        "reason": "Kendaraan dijual",
+        "count": 15,
+        "percentage": 1.1
+      },
+      {
+        "reason": "Kendaraan operasional",
+        "count": 16,
+        "percentage": 1.2
+      },
+      {
+        "reason": "Lain-lain",
+        "count": 1,
+        "percentage": 0.1
+      },
+      {
+        "reason": "Late",
+        "count": 2,
+        "percentage": 0.1
+      },
+      {
+        "reason": "Lokasi",
+        "count": 25,
+        "percentage": 1.8
+      },
+      {
+        "reason": "Nomor tidak dapat dihubungi",
+        "count": 48,
+        "percentage": 3.5
+      },
+      {
+        "reason": "Service ditempat lain",
+        "count": 91,
+        "percentage": 6.5
+      },
+      {
+        "reason": "Tidak diangkat",
+        "count": 476,
+        "percentage": 34.2
+      }
+    ],
+    "Mar": [
+      {
+        "reason": "Akan menghubungi Bengkel",
+        "count": 373,
+        "percentage": 28.5
+      },
+      {
+        "reason": "Booking",
+        "count": 32,
+        "percentage": 2.4
+      },
+      {
+        "reason": "Bukan user",
+        "count": 0,
+        "percentage": 0.0
+      },
+      {
+        "reason": "Early",
+        "count": 85,
+        "percentage": 6.5
+      },
+      {
+        "reason": "Kendaraan dijual",
+        "count": 15,
+        "percentage": 1.1
+      },
+      {
+        "reason": "Kendaraan operasional",
+        "count": 14,
+        "percentage": 1.1
+      },
+      {
+        "reason": "Lain-lain",
+        "count": 2,
+        "percentage": 0.2
+      },
+      {
+        "reason": "Late",
+        "count": 0,
+        "percentage": 0.0
+      },
+      {
+        "reason": "Lokasi",
+        "count": 94,
+        "percentage": 7.2
+      },
+      {
+        "reason": "Nomor tidak dapat dihubungi",
+        "count": 55,
+        "percentage": 4.2
+      },
+      {
+        "reason": "Service ditempat lain",
+        "count": 40,
+        "percentage": 3.1
+      },
+      {
+        "reason": "Tidak diangkat",
+        "count": 318,
+        "percentage": 24.3
+      }
+    ],
+    "Apr": [
+      {
+        "reason": "Akan menghubungi Bengkel",
+        "count": 309,
+        "percentage": 25.4
+      },
+      {
+        "reason": "Booking",
+        "count": 11,
+        "percentage": 0.9
+      },
+      {
+        "reason": "Bukan user",
+        "count": 2,
+        "percentage": 0.2
+      },
+      {
+        "reason": "Early",
+        "count": 100,
+        "percentage": 8.2
+      },
+      {
+        "reason": "Kendaraan dijual",
+        "count": 14,
+        "percentage": 1.2
+      },
+      {
+        "reason": "Kendaraan operasional",
+        "count": 20,
+        "percentage": 1.6
+      },
+      {
+        "reason": "Lain-lain",
+        "count": 0,
+        "percentage": 0.0
+      },
+      {
+        "reason": "Late",
+        "count": 0,
+        "percentage": 0.0
+      },
+      {
+        "reason": "Lokasi",
+        "count": 14,
+        "percentage": 1.2
+      },
+      {
+        "reason": "Nomor tidak dapat dihubungi",
+        "count": 21,
+        "percentage": 1.7
+      },
+      {
+        "reason": "Service ditempat lain",
+        "count": 50,
+        "percentage": 4.1
+      },
+      {
+        "reason": "Tidak diangkat",
+        "count": 383,
+        "percentage": 31.5
+      }
+    ],
+    "Mei": [
+      {
+        "reason": "Akan menghubungi Bengkel",
+        "count": 275,
+        "percentage": 23.6
+      },
+      {
+        "reason": "Booking",
+        "count": 16,
+        "percentage": 1.4
+      },
+      {
+        "reason": "Bukan user",
+        "count": 0,
+        "percentage": 0.0
+      },
+      {
+        "reason": "Early",
+        "count": 54,
+        "percentage": 4.6
+      },
+      {
+        "reason": "Kendaraan dijual",
+        "count": 18,
+        "percentage": 1.5
+      },
+      {
+        "reason": "Kendaraan operasional",
+        "count": 15,
+        "percentage": 1.3
+      },
+      {
+        "reason": "Lain-lain",
+        "count": 12,
+        "percentage": 1.0
+      },
+      {
+        "reason": "Late",
+        "count": 0,
+        "percentage": 0.0
+      },
+      {
+        "reason": "Lokasi",
+        "count": 110,
+        "percentage": 9.4
+      },
+      {
+        "reason": "Nomor tidak dapat dihubungi",
+        "count": 27,
+        "percentage": 2.3
+      },
+      {
+        "reason": "Service ditempat lain",
+        "count": 237,
+        "percentage": 20.3
+      },
+      {
+        "reason": "Tidak diangkat",
+        "count": 216,
+        "percentage": 18.5
+      }
+    ],
+    "Jun": [
+      {
+        "reason": "Akan menghubungi Bengkel",
+        "count": 318,
+        "percentage": 22.0
+      },
+      {
+        "reason": "Booking",
+        "count": 15,
+        "percentage": 1.0
+      },
+      {
+        "reason": "Bukan user",
+        "count": 1,
+        "percentage": 0.1
+      },
+      {
+        "reason": "Early",
+        "count": 114,
+        "percentage": 7.9
+      },
+      {
+        "reason": "Kendaraan dijual",
+        "count": 19,
+        "percentage": 1.3
+      },
+      {
+        "reason": "Kendaraan operasional",
+        "count": 13,
+        "percentage": 0.9
+      },
+      {
+        "reason": "Lain-lain",
+        "count": 2,
+        "percentage": 0.1
+      },
+      {
+        "reason": "Late",
+        "count": 2,
+        "percentage": 0.1
+      },
+      {
+        "reason": "Lokasi",
+        "count": 125,
+        "percentage": 8.7
+      },
+      {
+        "reason": "Nomor tidak dapat dihubungi",
+        "count": 26,
+        "percentage": 1.8
+      },
+      {
+        "reason": "Service ditempat lain",
+        "count": 135,
+        "percentage": 9.3
+      },
+      {
+        "reason": "Tidak diangkat",
+        "count": 556,
+        "percentage": 38.5
+      }
+    ],
+    "Jul": [
+      {
+        "reason": "Akan menghubungi Bengkel",
+        "count": 279,
+        "percentage": 18.3
+      },
+      {
+        "reason": "Booking",
+        "count": 20,
+        "percentage": 1.3
+      },
+      {
+        "reason": "Bukan user",
+        "count": 0,
+        "percentage": 0.0
+      },
+      {
+        "reason": "Early",
+        "count": 119,
+        "percentage": 7.8
+      },
+      {
+        "reason": "Kendaraan dijual",
+        "count": 17,
+        "percentage": 1.1
+      },
+      {
+        "reason": "Kendaraan operasional",
+        "count": 58,
+        "percentage": 3.8
+      },
+      {
+        "reason": "Lain-lain",
+        "count": 0,
+        "percentage": 0.0
+      },
+      {
+        "reason": "Late",
+        "count": 1,
+        "percentage": 0.1
+      },
+      {
+        "reason": "Lokasi",
+        "count": 107,
+        "percentage": 7.0
+      },
+      {
+        "reason": "Nomor tidak dapat dihubungi",
+        "count": 53,
+        "percentage": 3.5
+      },
+      {
+        "reason": "Service ditempat lain",
+        "count": 139,
+        "percentage": 9.1
+      },
+      {
+        "reason": "Tidak diangkat",
+        "count": 493,
+        "percentage": 32.3
+      }
+    ],
+    "Agt": [
+      {
+        "reason": "Akan menghubungi Bengkel",
+        "count": 221,
+        "percentage": 17.7
+      },
+      {
+        "reason": "Booking",
+        "count": 28,
+        "percentage": 2.2
+      },
+      {
+        "reason": "Bukan user",
+        "count": 0,
+        "percentage": 0.0
+      },
+      {
+        "reason": "Early",
+        "count": 99,
+        "percentage": 7.9
+      },
+      {
+        "reason": "Kendaraan dijual",
+        "count": 18,
+        "percentage": 1.4
+      },
+      {
+        "reason": "Kendaraan operasional",
+        "count": 29,
+        "percentage": 2.3
+      },
+      {
+        "reason": "Lain-lain",
+        "count": 0,
+        "percentage": 0.0
+      },
+      {
+        "reason": "Late",
+        "count": 1,
+        "percentage": 0.1
+      },
+      {
+        "reason": "Lokasi",
+        "count": 66,
+        "percentage": 5.3
+      },
+      {
+        "reason": "Nomor tidak dapat dihubungi",
+        "count": 23,
+        "percentage": 1.8
+      },
+      {
+        "reason": "Service ditempat lain",
+        "count": 106,
+        "percentage": 8.5
+      },
+      {
+        "reason": "Tidak diangkat",
+        "count": 434,
+        "percentage": 34.7
+      }
+    ],
+    "Sep": [
+      {
+        "reason": "Akan menghubungi Bengkel",
+        "count": 272,
+        "percentage": 17.3
+      },
+      {
+        "reason": "Booking",
+        "count": 35,
+        "percentage": 2.2
+      },
+      {
+        "reason": "Bukan user",
+        "count": 0,
+        "percentage": 0.0
+      },
+      {
+        "reason": "Early",
+        "count": 114,
+        "percentage": 7.3
+      },
+      {
+        "reason": "Kendaraan dijual",
+        "count": 14,
+        "percentage": 0.9
+      },
+      {
+        "reason": "Kendaraan operasional",
+        "count": 17,
+        "percentage": 1.1
+      },
+      {
+        "reason": "Lain-lain",
+        "count": 0,
+        "percentage": 0.0
+      },
+      {
+        "reason": "Late",
+        "count": 1,
+        "percentage": 0.1
+      },
+      {
+        "reason": "Lokasi",
+        "count": 73,
+        "percentage": 4.6
+      },
+      {
+        "reason": "Nomor tidak dapat dihubungi",
+        "count": 35,
+        "percentage": 2.2
+      },
+      {
+        "reason": "Service ditempat lain",
+        "count": 134,
+        "percentage": 8.5
+      },
+      {
+        "reason": "Tidak diangkat",
+        "count": 611,
+        "percentage": 38.9
+      }
+    ],
+    "Okt": [
+      {
+        "reason": "Akan menghubungi Bengkel",
+        "count": 249,
+        "percentage": 31.6
+      },
+      {
+        "reason": "Booking",
+        "count": 47,
+        "percentage": 6.0
+      },
+      {
+        "reason": "Bukan user",
+        "count": 2,
+        "percentage": 0.3
+      },
+      {
+        "reason": "Early",
+        "count": 81,
+        "percentage": 10.3
+      },
+      {
+        "reason": "Kendaraan dijual",
+        "count": 7,
+        "percentage": 0.9
+      },
+      {
+        "reason": "Kendaraan operasional",
+        "count": 28,
+        "percentage": 3.6
+      },
+      {
+        "reason": "Lain-lain",
+        "count": 140,
+        "percentage": 17.8
+      },
+      {
+        "reason": "Late",
+        "count": 5,
+        "percentage": 0.6
+      },
+      {
+        "reason": "Lokasi",
+        "count": 120,
+        "percentage": 15.2
+      },
+      {
+        "reason": "Nomor tidak dapat dihubungi",
+        "count": 12,
+        "percentage": 1.5
+      },
+      {
+        "reason": "Service ditempat lain",
+        "count": 118,
+        "percentage": 15.0
+      },
+      {
+        "reason": "Tidak diangkat",
+        "count": 417,
+        "percentage": 53.0
+      }
+    ],
+    "Nov": [
+      {
+        "reason": "Akan menghubungi Bengkel",
+        "count": 5,
+        "percentage": 4.5
+      },
+      {
+        "reason": "Booking",
+        "count": 6,
+        "percentage": 5.4
+      },
+      {
+        "reason": "Bukan user",
+        "count": 0,
+        "percentage": 0.0
+      },
+      {
+        "reason": "Early",
+        "count": 0,
+        "percentage": 0.0
+      },
+      {
+        "reason": "Kendaraan dijual",
+        "count": 0,
+        "percentage": 0.0
+      },
+      {
+        "reason": "Kendaraan operasional",
+        "count": 4,
+        "percentage": 3.6
+      },
+      {
+        "reason": "Lain-lain",
+        "count": 22,
+        "percentage": 19.8
+      },
+      {
+        "reason": "Late",
+        "count": 0,
+        "percentage": 0.0
+      },
+      {
+        "reason": "Lokasi",
+        "count": 13,
+        "percentage": 11.7
+      },
+      {
+        "reason": "Nomor tidak dapat dihubungi",
+        "count": 0,
+        "percentage": 0.0
+      },
+      {
+        "reason": "Service ditempat lain",
+        "count": 5,
+        "percentage": 4.5
+      },
+      {
+        "reason": "Tidak diangkat",
+        "count": 56,
+        "percentage": 50.5
+      }
+    ],
+    "Des": [
+      {
+        "reason": "Akan menghubungi Bengkel",
+        "count": 3,
+        "percentage": 6.7
+      },
+      {
+        "reason": "Booking",
+        "count": 0,
+        "percentage": 0.0
+      },
+      {
+        "reason": "Bukan user",
+        "count": 0,
+        "percentage": 0.0
+      },
+      {
+        "reason": "Early",
+        "count": 0,
+        "percentage": 0.0
+      },
+      {
+        "reason": "Kendaraan dijual",
+        "count": 0,
+        "percentage": 0.0
+      },
+      {
+        "reason": "Kendaraan operasional",
+        "count": 1,
+        "percentage": 2.2
+      },
+      {
+        "reason": "Lain-lain",
+        "count": 7,
+        "percentage": 15.6
+      },
+      {
+        "reason": "Late",
+        "count": 0,
+        "percentage": 0.0
+      },
+      {
+        "reason": "Lokasi",
+        "count": 2,
+        "percentage": 4.4
+      },
+      {
+        "reason": "Nomor tidak dapat dihubungi",
+        "count": 2,
+        "percentage": 4.4
+      },
+      {
+        "reason": "Service ditempat lain",
+        "count": 3,
+        "percentage": 6.7
+      },
+      {
+        "reason": "Tidak diangkat",
+        "count": 26,
+        "percentage": 57.8
+      }
+    ]
+  },
+  "priority_segments_by_period": {
+    "all": [
+      {
+        "group": "Priority 1",
+        "subgroups": [
+          {
+            "label": "Expired soon - Eligible",
+            "potensi": 76,
+            "cai": 28,
+            "pct": 36.8
+          },
+          {
+            "label": "Expired soon - Not Eligible",
+            "potensi": 171,
+            "cai": 41,
+            "pct": 24.0
+          },
+          {
+            "label": "Expired soon - Never claim",
+            "potensi": 12,
+            "cai": 0,
+            "pct": 0.0
+          }
+        ],
+        "total_label": "TOTAL EX SOON",
+        "total_potensi": 259,
+        "total_cai": 69,
+        "total_pct": 26.6
+      },
+      {
+        "group": "Priority 2",
+        "subgroups": [
+          {
+            "label": "Active - Eligible",
+            "potensi": 3624,
+            "cai": 924,
+            "pct": 25.5
+          },
+          {
+            "label": "Active - Not Eligible",
+            "potensi": 1628,
+            "cai": 287,
+            "pct": 17.6
+          },
+          {
+            "label": "Active - Never claim",
+            "potensi": 124,
+            "cai": 38,
+            "pct": 30.6
+          }
+        ],
+        "total_label": "TOTAL ACTIVE",
+        "total_potensi": 5376,
+        "total_cai": 1249,
+        "total_pct": 23.2
+      },
+      {
+        "group": "Priority 3",
+        "subgroups": [
+          {
+            "label": "Finish - Eligible",
+            "potensi": 501,
+            "cai": 79,
+            "pct": 15.8
+          },
+          {
+            "label": "Finish - Not Eligible",
+            "potensi": 204,
+            "cai": 32,
+            "pct": 15.7
+          }
+        ],
+        "total_label": "TOTAL FINISH",
+        "total_potensi": 705,
+        "total_cai": 111,
+        "total_pct": 15.7
+      },
+      {
+        "group": "Priority 4",
+        "subgroups": [
+          {
+            "label": "Expired - Eligible",
+            "potensi": 709,
+            "cai": 82,
+            "pct": 11.6
+          },
+          {
+            "label": "Expired - Not Eligible",
+            "potensi": 731,
+            "cai": 97,
+            "pct": 13.3
+          },
+          {
+            "label": "Expired - Never claim",
+            "potensi": 63,
+            "cai": 5,
+            "pct": 7.9
+          }
+        ],
+        "total_label": "TOTAL EXPIRED",
+        "total_potensi": 1503,
+        "total_cai": 184,
+        "total_pct": 12.2
+      },
+      {
+        "group": "Priority 5",
+        "subgroups": [
+          {
+            "label": "HOT",
+            "potensi": 72,
+            "cai": 13,
+            "pct": 18.1
+          },
+          {
+            "label": "Medium",
+            "potensi": 89,
+            "cai": 13,
+            "pct": 14.6
+          },
+          {
+            "label": "Low",
+            "potensi": 150,
+            "cai": 10,
+            "pct": 6.7
+          }
+        ],
+        "total_label": "TOTAL CRT MERDEKA",
+        "total_potensi": 311,
+        "total_cai": 36,
+        "total_pct": 11.6,
+        "title": "CRT > 8th Merdeka Motor (Pembelian Asal: MERDEKA — Kolom Judgement Cust)"
+      },
+      {
+        "group": "Priority 6",
+        "subgroups": [
+          {
+            "label": "HOT",
+            "potensi": 982,
+            "cai": 234,
+            "pct": 23.8
+          },
+          {
+            "label": "Medium",
+            "potensi": 1074,
+            "cai": 195,
+            "pct": 18.2
+          },
+          {
+            "label": "Low",
+            "potensi": 2992,
+            "cai": 320,
+            "pct": 10.7
+          }
+        ],
+        "total_label": "TOTAL CRT NON MERDEKA",
+        "total_potensi": 5048,
+        "total_cai": 749,
+        "total_pct": 14.8,
+        "title": "CRT > 8th All Penjualan (Pembelian Asal: Selain Merdeka — Kolom Judgement Cust)"
+      }
+    ],
+    "Q1": [
+      {
+        "group": "Priority 1",
+        "subgroups": [
+          {
+            "label": "Expired soon - Eligible",
+            "potensi": 12,
+            "cai": 2,
+            "pct": 16.7
+          },
+          {
+            "label": "Expired soon - Not Eligible",
+            "potensi": 50,
+            "cai": 13,
+            "pct": 26.0
+          },
+          {
+            "label": "Expired soon - Never claim",
+            "potensi": 0,
+            "cai": 0,
+            "pct": 0
+          }
+        ],
+        "total_label": "TOTAL EX SOON",
+        "total_potensi": 62,
+        "total_cai": 15,
+        "total_pct": 24.2
+      },
+      {
+        "group": "Priority 2",
+        "subgroups": [
+          {
+            "label": "Active - Eligible",
+            "potensi": 998,
+            "cai": 235,
+            "pct": 23.5
+          },
+          {
+            "label": "Active - Not Eligible",
+            "potensi": 584,
+            "cai": 113,
+            "pct": 19.3
+          },
+          {
+            "label": "Active - Never claim",
+            "potensi": 0,
+            "cai": 0,
+            "pct": 0
+          }
+        ],
+        "total_label": "TOTAL ACTIVE",
+        "total_potensi": 1582,
+        "total_cai": 348,
+        "total_pct": 22.0
+      },
+      {
+        "group": "Priority 3",
+        "subgroups": [
+          {
+            "label": "Finish - Eligible",
+            "potensi": 121,
+            "cai": 26,
+            "pct": 21.5
+          },
+          {
+            "label": "Finish - Not Eligible",
+            "potensi": 44,
+            "cai": 15,
+            "pct": 34.1
+          }
+        ],
+        "total_label": "TOTAL FINISH",
+        "total_potensi": 165,
+        "total_cai": 41,
+        "total_pct": 24.8
+      },
+      {
+        "group": "Priority 4",
+        "subgroups": [
+          {
+            "label": "Expired - Eligible",
+            "potensi": 118,
+            "cai": 25,
+            "pct": 21.2
+          },
+          {
+            "label": "Expired - Not Eligible",
+            "potensi": 192,
+            "cai": 36,
+            "pct": 18.8
+          },
+          {
+            "label": "Expired - Never claim",
+            "potensi": 0,
+            "cai": 0,
+            "pct": 0
+          }
+        ],
+        "total_label": "TOTAL EXPIRED",
+        "total_potensi": 310,
+        "total_cai": 61,
+        "total_pct": 19.7
+      },
+      {
+        "group": "Priority 5",
+        "subgroups": [
+          {
+            "label": "HOT",
+            "potensi": 0,
+            "cai": 0,
+            "pct": 0
+          },
+          {
+            "label": "Medium",
+            "potensi": 0,
+            "cai": 0,
+            "pct": 0
+          },
+          {
+            "label": "Low",
+            "potensi": 0,
+            "cai": 0,
+            "pct": 0
+          }
+        ],
+        "total_label": "TOTAL CRT MERDEKA",
+        "total_potensi": 0,
+        "total_cai": 0,
+        "total_pct": 0,
+        "title": "CRT > 8th Merdeka Motor (Pembelian Asal: MERDEKA — Kolom Judgement Cust)"
+      },
+      {
+        "group": "Priority 6",
+        "subgroups": [
+          {
+            "label": "HOT",
+            "potensi": 427,
+            "cai": 108,
+            "pct": 25.3
+          },
+          {
+            "label": "Medium",
+            "potensi": 444,
+            "cai": 92,
+            "pct": 20.7
+          },
+          {
+            "label": "Low",
+            "potensi": 1309,
+            "cai": 153,
+            "pct": 11.7
+          }
+        ],
+        "total_label": "TOTAL CRT NON MERDEKA",
+        "total_potensi": 2180,
+        "total_cai": 353,
+        "total_pct": 16.2,
+        "title": "CRT > 8th All Penjualan (Pembelian Asal: Selain Merdeka — Kolom Judgement Cust)"
+      }
+    ],
+    "Q2": [
+      {
+        "group": "Priority 1",
+        "subgroups": [
+          {
+            "label": "Expired soon - Eligible",
+            "potensi": 17,
+            "cai": 8,
+            "pct": 47.1
+          },
+          {
+            "label": "Expired soon - Not Eligible",
+            "potensi": 34,
+            "cai": 7,
+            "pct": 20.6
+          },
+          {
+            "label": "Expired soon - Never claim",
+            "potensi": 0,
+            "cai": 0,
+            "pct": 0
+          }
+        ],
+        "total_label": "TOTAL EX SOON",
+        "total_potensi": 51,
+        "total_cai": 15,
+        "total_pct": 29.4
+      },
+      {
+        "group": "Priority 2",
+        "subgroups": [
+          {
+            "label": "Active - Eligible",
+            "potensi": 1138,
+            "cai": 301,
+            "pct": 26.4
+          },
+          {
+            "label": "Active - Not Eligible",
+            "potensi": 401,
+            "cai": 79,
+            "pct": 19.7
+          },
+          {
+            "label": "Active - Never claim",
+            "potensi": 3,
+            "cai": 0,
+            "pct": 0.0
+          }
+        ],
+        "total_label": "TOTAL ACTIVE",
+        "total_potensi": 1542,
+        "total_cai": 380,
+        "total_pct": 24.6
+      },
+      {
+        "group": "Priority 3",
+        "subgroups": [
+          {
+            "label": "Finish - Eligible",
+            "potensi": 168,
+            "cai": 22,
+            "pct": 13.1
+          },
+          {
+            "label": "Finish - Not Eligible",
+            "potensi": 32,
+            "cai": 10,
+            "pct": 31.2
+          }
+        ],
+        "total_label": "TOTAL FINISH",
+        "total_potensi": 200,
+        "total_cai": 32,
+        "total_pct": 16.0
+      },
+      {
+        "group": "Priority 4",
+        "subgroups": [
+          {
+            "label": "Expired - Eligible",
+            "potensi": 229,
+            "cai": 24,
+            "pct": 10.5
+          },
+          {
+            "label": "Expired - Not Eligible",
+            "potensi": 173,
+            "cai": 33,
+            "pct": 19.1
+          },
+          {
+            "label": "Expired - Never claim",
+            "potensi": 2,
+            "cai": 0,
+            "pct": 0.0
+          }
+        ],
+        "total_label": "TOTAL EXPIRED",
+        "total_potensi": 404,
+        "total_cai": 57,
+        "total_pct": 14.1
+      },
+      {
+        "group": "Priority 5",
+        "subgroups": [
+          {
+            "label": "HOT",
+            "potensi": 33,
+            "cai": 7,
+            "pct": 21.2
+          },
+          {
+            "label": "Medium",
+            "potensi": 44,
+            "cai": 7,
+            "pct": 15.9
+          },
+          {
+            "label": "Low",
+            "potensi": 47,
+            "cai": 6,
+            "pct": 12.8
+          }
+        ],
+        "total_label": "TOTAL CRT MERDEKA",
+        "total_potensi": 124,
+        "total_cai": 20,
+        "total_pct": 16.1,
+        "title": "CRT > 8th Merdeka Motor (Pembelian Asal: MERDEKA — Kolom Judgement Cust)"
+      },
+      {
+        "group": "Priority 6",
+        "subgroups": [
+          {
+            "label": "HOT",
+            "potensi": 333,
+            "cai": 87,
+            "pct": 26.1
+          },
+          {
+            "label": "Medium",
+            "potensi": 388,
+            "cai": 70,
+            "pct": 18.0
+          },
+          {
+            "label": "Low",
+            "potensi": 959,
+            "cai": 110,
+            "pct": 11.5
+          }
+        ],
+        "total_label": "TOTAL CRT NON MERDEKA",
+        "total_potensi": 1680,
+        "total_cai": 267,
+        "total_pct": 15.9,
+        "title": "CRT > 8th All Penjualan (Pembelian Asal: Selain Merdeka — Kolom Judgement Cust)"
+      }
+    ],
+    "Q3": [
+      {
+        "group": "Priority 1",
+        "subgroups": [
+          {
+            "label": "Expired soon - Eligible",
+            "potensi": 31,
+            "cai": 15,
+            "pct": 48.4
+          },
+          {
+            "label": "Expired soon - Not Eligible",
+            "potensi": 64,
+            "cai": 15,
+            "pct": 23.4
+          },
+          {
+            "label": "Expired soon - Never claim",
+            "potensi": 2,
+            "cai": 0,
+            "pct": 0.0
+          }
+        ],
+        "total_label": "TOTAL EX SOON",
+        "total_potensi": 97,
+        "total_cai": 30,
+        "total_pct": 30.9
+      },
+      {
+        "group": "Priority 2",
+        "subgroups": [
+          {
+            "label": "Active - Eligible",
+            "potensi": 1192,
+            "cai": 329,
+            "pct": 27.6
+          },
+          {
+            "label": "Active - Not Eligible",
+            "potensi": 516,
+            "cai": 83,
+            "pct": 16.1
+          },
+          {
+            "label": "Active - Never claim",
+            "potensi": 27,
+            "cai": 0,
+            "pct": 0.0
+          }
+        ],
+        "total_label": "TOTAL ACTIVE",
+        "total_potensi": 1735,
+        "total_cai": 412,
+        "total_pct": 23.7
+      },
+      {
+        "group": "Priority 3",
+        "subgroups": [
+          {
+            "label": "Finish - Eligible",
+            "potensi": 162,
+            "cai": 24,
+            "pct": 14.8
+          },
+          {
+            "label": "Finish - Not Eligible",
+            "potensi": 78,
+            "cai": 7,
+            "pct": 9.0
+          }
+        ],
+        "total_label": "TOTAL FINISH",
+        "total_potensi": 240,
+        "total_cai": 31,
+        "total_pct": 12.9
+      },
+      {
+        "group": "Priority 4",
+        "subgroups": [
+          {
+            "label": "Expired - Eligible",
+            "potensi": 258,
+            "cai": 29,
+            "pct": 11.2
+          },
+          {
+            "label": "Expired - Not Eligible",
+            "potensi": 271,
+            "cai": 24,
+            "pct": 8.9
+          },
+          {
+            "label": "Expired - Never claim",
+            "potensi": 22,
+            "cai": 3,
+            "pct": 13.6
+          }
+        ],
+        "total_label": "TOTAL EXPIRED",
+        "total_potensi": 551,
+        "total_cai": 56,
+        "total_pct": 10.2
+      },
+      {
+        "group": "Priority 5",
+        "subgroups": [
+          {
+            "label": "HOT",
+            "potensi": 39,
+            "cai": 6,
+            "pct": 15.4
+          },
+          {
+            "label": "Medium",
+            "potensi": 45,
+            "cai": 6,
+            "pct": 13.3
+          },
+          {
+            "label": "Low",
+            "potensi": 103,
+            "cai": 4,
+            "pct": 3.9
+          }
+        ],
+        "total_label": "TOTAL CRT MERDEKA",
+        "total_potensi": 187,
+        "total_cai": 16,
+        "total_pct": 8.6,
+        "title": "CRT > 8th Merdeka Motor (Pembelian Asal: MERDEKA — Kolom Judgement Cust)"
+      },
+      {
+        "group": "Priority 6",
+        "subgroups": [
+          {
+            "label": "HOT",
+            "potensi": 222,
+            "cai": 39,
+            "pct": 17.6
+          },
+          {
+            "label": "Medium",
+            "potensi": 242,
+            "cai": 33,
+            "pct": 13.6
+          },
+          {
+            "label": "Low",
+            "potensi": 724,
+            "cai": 57,
+            "pct": 7.9
+          }
+        ],
+        "total_label": "TOTAL CRT NON MERDEKA",
+        "total_potensi": 1188,
+        "total_cai": 129,
+        "total_pct": 10.9,
+        "title": "CRT > 8th All Penjualan (Pembelian Asal: Selain Merdeka — Kolom Judgement Cust)"
+      }
+    ],
+    "Jan": [
+      {
+        "group": "Priority 1",
+        "subgroups": [
+          {
+            "label": "Expired soon - Eligible",
+            "potensi": 4,
+            "cai": 1,
+            "pct": 25.0
+          },
+          {
+            "label": "Expired soon - Not Eligible",
+            "potensi": 18,
+            "cai": 3,
+            "pct": 16.7
+          },
+          {
+            "label": "Expired soon - Never claim",
+            "potensi": 0,
+            "cai": 0,
+            "pct": 0
+          }
+        ],
+        "total_label": "TOTAL EX SOON",
+        "total_potensi": 22,
+        "total_cai": 4,
+        "total_pct": 18.2
+      },
+      {
+        "group": "Priority 2",
+        "subgroups": [
+          {
+            "label": "Active - Eligible",
+            "potensi": 342,
+            "cai": 70,
+            "pct": 20.5
+          },
+          {
+            "label": "Active - Not Eligible",
+            "potensi": 225,
+            "cai": 38,
+            "pct": 16.9
+          },
+          {
+            "label": "Active - Never claim",
+            "potensi": 0,
+            "cai": 0,
+            "pct": 0
+          }
+        ],
+        "total_label": "TOTAL ACTIVE",
+        "total_potensi": 567,
+        "total_cai": 108,
+        "total_pct": 19.0
+      },
+      {
+        "group": "Priority 3",
+        "subgroups": [
+          {
+            "label": "Finish - Eligible",
+            "potensi": 41,
+            "cai": 4,
+            "pct": 9.8
+          },
+          {
+            "label": "Finish - Not Eligible",
+            "potensi": 15,
+            "cai": 3,
+            "pct": 20.0
+          }
+        ],
+        "total_label": "TOTAL FINISH",
+        "total_potensi": 56,
+        "total_cai": 7,
+        "total_pct": 12.5
+      },
+      {
+        "group": "Priority 4",
+        "subgroups": [
+          {
+            "label": "Expired - Eligible",
+            "potensi": 40,
+            "cai": 9,
+            "pct": 22.5
+          },
+          {
+            "label": "Expired - Not Eligible",
+            "potensi": 68,
+            "cai": 9,
+            "pct": 13.2
+          },
+          {
+            "label": "Expired - Never claim",
+            "potensi": 0,
+            "cai": 0,
+            "pct": 0
+          }
+        ],
+        "total_label": "TOTAL EXPIRED",
+        "total_potensi": 108,
+        "total_cai": 18,
+        "total_pct": 16.7
+      },
+      {
+        "group": "Priority 5",
+        "subgroups": [
+          {
+            "label": "HOT",
+            "potensi": 0,
+            "cai": 0,
+            "pct": 0
+          },
+          {
+            "label": "Medium",
+            "potensi": 0,
+            "cai": 0,
+            "pct": 0
+          },
+          {
+            "label": "Low",
+            "potensi": 0,
+            "cai": 0,
+            "pct": 0
+          }
+        ],
+        "total_label": "TOTAL CRT MERDEKA",
+        "total_potensi": 0,
+        "total_cai": 0,
+        "total_pct": 0,
+        "title": "CRT > 8th Merdeka Motor (Pembelian Asal: MERDEKA — Kolom Judgement Cust)"
+      },
+      {
+        "group": "Priority 6",
+        "subgroups": [
+          {
+            "label": "HOT",
+            "potensi": 133,
+            "cai": 30,
+            "pct": 22.6
+          },
+          {
+            "label": "Medium",
+            "potensi": 151,
+            "cai": 20,
+            "pct": 13.2
+          },
+          {
+            "label": "Low",
+            "potensi": 517,
+            "cai": 48,
+            "pct": 9.3
+          }
+        ],
+        "total_label": "TOTAL CRT NON MERDEKA",
+        "total_potensi": 801,
+        "total_cai": 98,
+        "total_pct": 12.2,
+        "title": "CRT > 8th All Penjualan (Pembelian Asal: Selain Merdeka — Kolom Judgement Cust)"
+      }
+    ],
+    "Feb": [
+      {
+        "group": "Priority 1",
+        "subgroups": [
+          {
+            "label": "Expired soon - Eligible",
+            "potensi": 4,
+            "cai": 0,
+            "pct": 0.0
+          },
+          {
+            "label": "Expired soon - Not Eligible",
+            "potensi": 16,
+            "cai": 6,
+            "pct": 37.5
+          },
+          {
+            "label": "Expired soon - Never claim",
+            "potensi": 0,
+            "cai": 0,
+            "pct": 0
+          }
+        ],
+        "total_label": "TOTAL EX SOON",
+        "total_potensi": 20,
+        "total_cai": 6,
+        "total_pct": 30.0
+      },
+      {
+        "group": "Priority 2",
+        "subgroups": [
+          {
+            "label": "Active - Eligible",
+            "potensi": 329,
+            "cai": 80,
+            "pct": 24.3
+          },
+          {
+            "label": "Active - Not Eligible",
+            "potensi": 180,
+            "cai": 34,
+            "pct": 18.9
+          },
+          {
+            "label": "Active - Never claim",
+            "potensi": 0,
+            "cai": 0,
+            "pct": 0
+          }
+        ],
+        "total_label": "TOTAL ACTIVE",
+        "total_potensi": 509,
+        "total_cai": 114,
+        "total_pct": 22.4
+      },
+      {
+        "group": "Priority 3",
+        "subgroups": [
+          {
+            "label": "Finish - Eligible",
+            "potensi": 40,
+            "cai": 6,
+            "pct": 15.0
+          },
+          {
+            "label": "Finish - Not Eligible",
+            "potensi": 15,
+            "cai": 5,
+            "pct": 33.3
+          }
+        ],
+        "total_label": "TOTAL FINISH",
+        "total_potensi": 55,
+        "total_cai": 11,
+        "total_pct": 20.0
+      },
+      {
+        "group": "Priority 4",
+        "subgroups": [
+          {
+            "label": "Expired - Eligible",
+            "potensi": 39,
+            "cai": 7,
+            "pct": 17.9
+          },
+          {
+            "label": "Expired - Not Eligible",
+            "potensi": 62,
+            "cai": 13,
+            "pct": 21.0
+          },
+          {
+            "label": "Expired - Never claim",
+            "potensi": 0,
+            "cai": 0,
+            "pct": 0
+          }
+        ],
+        "total_label": "TOTAL EXPIRED",
+        "total_potensi": 101,
+        "total_cai": 20,
+        "total_pct": 19.8
+      },
+      {
+        "group": "Priority 5",
+        "subgroups": [
+          {
+            "label": "HOT",
+            "potensi": 0,
+            "cai": 0,
+            "pct": 0
+          },
+          {
+            "label": "Medium",
+            "potensi": 0,
+            "cai": 0,
+            "pct": 0
+          },
+          {
+            "label": "Low",
+            "potensi": 0,
+            "cai": 0,
+            "pct": 0
+          }
+        ],
+        "total_label": "TOTAL CRT MERDEKA",
+        "total_potensi": 0,
+        "total_cai": 0,
+        "total_pct": 0,
+        "title": "CRT > 8th Merdeka Motor (Pembelian Asal: MERDEKA — Kolom Judgement Cust)"
+      },
+      {
+        "group": "Priority 6",
+        "subgroups": [
+          {
+            "label": "HOT",
+            "potensi": 124,
+            "cai": 29,
+            "pct": 23.4
+          },
+          {
+            "label": "Medium",
+            "potensi": 130,
+            "cai": 29,
+            "pct": 22.3
+          },
+          {
+            "label": "Low",
+            "potensi": 452,
+            "cai": 48,
+            "pct": 10.6
+          }
+        ],
+        "total_label": "TOTAL CRT NON MERDEKA",
+        "total_potensi": 706,
+        "total_cai": 106,
+        "total_pct": 15.0,
+        "title": "CRT > 8th All Penjualan (Pembelian Asal: Selain Merdeka — Kolom Judgement Cust)"
+      }
+    ],
+    "Mar": [
+      {
+        "group": "Priority 1",
+        "subgroups": [
+          {
+            "label": "Expired soon - Eligible",
+            "potensi": 4,
+            "cai": 1,
+            "pct": 25.0
+          },
+          {
+            "label": "Expired soon - Not Eligible",
+            "potensi": 16,
+            "cai": 4,
+            "pct": 25.0
+          },
+          {
+            "label": "Expired soon - Never claim",
+            "potensi": 0,
+            "cai": 0,
+            "pct": 0
+          }
+        ],
+        "total_label": "TOTAL EX SOON",
+        "total_potensi": 20,
+        "total_cai": 5,
+        "total_pct": 25.0
+      },
+      {
+        "group": "Priority 2",
+        "subgroups": [
+          {
+            "label": "Active - Eligible",
+            "potensi": 327,
+            "cai": 85,
+            "pct": 26.0
+          },
+          {
+            "label": "Active - Not Eligible",
+            "potensi": 179,
+            "cai": 41,
+            "pct": 22.9
+          },
+          {
+            "label": "Active - Never claim",
+            "potensi": 0,
+            "cai": 0,
+            "pct": 0
+          }
+        ],
+        "total_label": "TOTAL ACTIVE",
+        "total_potensi": 506,
+        "total_cai": 126,
+        "total_pct": 24.9
+      },
+      {
+        "group": "Priority 3",
+        "subgroups": [
+          {
+            "label": "Finish - Eligible",
+            "potensi": 40,
+            "cai": 16,
+            "pct": 40.0
+          },
+          {
+            "label": "Finish - Not Eligible",
+            "potensi": 14,
+            "cai": 7,
+            "pct": 50.0
+          }
+        ],
+        "total_label": "TOTAL FINISH",
+        "total_potensi": 54,
+        "total_cai": 23,
+        "total_pct": 42.6
+      },
+      {
+        "group": "Priority 4",
+        "subgroups": [
+          {
+            "label": "Expired - Eligible",
+            "potensi": 39,
+            "cai": 9,
+            "pct": 23.1
+          },
+          {
+            "label": "Expired - Not Eligible",
+            "potensi": 62,
+            "cai": 14,
+            "pct": 22.6
+          },
+          {
+            "label": "Expired - Never claim",
+            "potensi": 0,
+            "cai": 0,
+            "pct": 0
+          }
+        ],
+        "total_label": "TOTAL EXPIRED",
+        "total_potensi": 101,
+        "total_cai": 23,
+        "total_pct": 22.8
+      },
+      {
+        "group": "Priority 5",
+        "subgroups": [
+          {
+            "label": "HOT",
+            "potensi": 0,
+            "cai": 0,
+            "pct": 0
+          },
+          {
+            "label": "Medium",
+            "potensi": 0,
+            "cai": 0,
+            "pct": 0
+          },
+          {
+            "label": "Low",
+            "potensi": 0,
+            "cai": 0,
+            "pct": 0
+          }
+        ],
+        "total_label": "TOTAL CRT MERDEKA",
+        "total_potensi": 0,
+        "total_cai": 0,
+        "total_pct": 0,
+        "title": "CRT > 8th Merdeka Motor (Pembelian Asal: MERDEKA — Kolom Judgement Cust)"
+      },
+      {
+        "group": "Priority 6",
+        "subgroups": [
+          {
+            "label": "HOT",
+            "potensi": 170,
+            "cai": 49,
+            "pct": 28.8
+          },
+          {
+            "label": "Medium",
+            "potensi": 163,
+            "cai": 43,
+            "pct": 26.4
+          },
+          {
+            "label": "Low",
+            "potensi": 340,
+            "cai": 57,
+            "pct": 16.8
+          }
+        ],
+        "total_label": "TOTAL CRT NON MERDEKA",
+        "total_potensi": 673,
+        "total_cai": 149,
+        "total_pct": 22.1,
+        "title": "CRT > 8th All Penjualan (Pembelian Asal: Selain Merdeka — Kolom Judgement Cust)"
+      }
+    ],
+    "Apr": [
+      {
+        "group": "Priority 1",
+        "subgroups": [
+          {
+            "label": "Expired soon - Eligible",
+            "potensi": 4,
+            "cai": 0,
+            "pct": 0.0
+          },
+          {
+            "label": "Expired soon - Not Eligible",
+            "potensi": 13,
+            "cai": 4,
+            "pct": 30.8
+          },
+          {
+            "label": "Expired soon - Never claim",
+            "potensi": 0,
+            "cai": 0,
+            "pct": 0
+          }
+        ],
+        "total_label": "TOTAL EX SOON",
+        "total_potensi": 17,
+        "total_cai": 4,
+        "total_pct": 23.5
+      },
+      {
+        "group": "Priority 2",
+        "subgroups": [
+          {
+            "label": "Active - Eligible",
+            "potensi": 326,
+            "cai": 101,
+            "pct": 31.0
+          },
+          {
+            "label": "Active - Not Eligible",
+            "potensi": 173,
+            "cai": 39,
+            "pct": 22.5
+          },
+          {
+            "label": "Active - Never claim",
+            "potensi": 0,
+            "cai": 0,
+            "pct": 0
+          }
+        ],
+        "total_label": "TOTAL ACTIVE",
+        "total_potensi": 499,
+        "total_cai": 140,
+        "total_pct": 28.1
+      },
+      {
+        "group": "Priority 3",
+        "subgroups": [
+          {
+            "label": "Finish - Eligible",
+            "potensi": 40,
+            "cai": 11,
+            "pct": 27.5
+          },
+          {
+            "label": "Finish - Not Eligible",
+            "potensi": 14,
+            "cai": 4,
+            "pct": 28.6
+          }
+        ],
+        "total_label": "TOTAL FINISH",
+        "total_potensi": 54,
+        "total_cai": 15,
+        "total_pct": 27.8
+      },
+      {
+        "group": "Priority 4",
+        "subgroups": [
+          {
+            "label": "Expired - Eligible",
+            "potensi": 38,
+            "cai": 6,
+            "pct": 15.8
+          },
+          {
+            "label": "Expired - Not Eligible",
+            "potensi": 61,
+            "cai": 15,
+            "pct": 24.6
+          },
+          {
+            "label": "Expired - Never claim",
+            "potensi": 0,
+            "cai": 0,
+            "pct": 0
+          }
+        ],
+        "total_label": "TOTAL EXPIRED",
+        "total_potensi": 99,
+        "total_cai": 21,
+        "total_pct": 21.2
+      },
+      {
+        "group": "Priority 5",
+        "subgroups": [
+          {
+            "label": "HOT",
+            "potensi": 0,
+            "cai": 0,
+            "pct": 0
+          },
+          {
+            "label": "Medium",
+            "potensi": 0,
+            "cai": 0,
+            "pct": 0
+          },
+          {
+            "label": "Low",
+            "potensi": 0,
+            "cai": 0,
+            "pct": 0
+          }
+        ],
+        "total_label": "TOTAL CRT MERDEKA",
+        "total_potensi": 0,
+        "total_cai": 0,
+        "total_pct": 0,
+        "title": "CRT > 8th Merdeka Motor (Pembelian Asal: MERDEKA — Kolom Judgement Cust)"
+      },
+      {
+        "group": "Priority 6",
+        "subgroups": [
+          {
+            "label": "HOT",
+            "potensi": 118,
+            "cai": 35,
+            "pct": 29.7
+          },
+          {
+            "label": "Medium",
+            "potensi": 123,
+            "cai": 27,
+            "pct": 22.0
+          },
+          {
+            "label": "Low",
+            "potensi": 306,
+            "cai": 50,
+            "pct": 16.3
+          }
+        ],
+        "total_label": "TOTAL CRT NON MERDEKA",
+        "total_potensi": 547,
+        "total_cai": 112,
+        "total_pct": 20.5,
+        "title": "CRT > 8th All Penjualan (Pembelian Asal: Selain Merdeka — Kolom Judgement Cust)"
+      }
+    ],
+    "Mei": [
+      {
+        "group": "Priority 1",
+        "subgroups": [
+          {
+            "label": "Expired soon - Eligible",
+            "potensi": 0,
+            "cai": 0,
+            "pct": 0
+          },
+          {
+            "label": "Expired soon - Not Eligible",
+            "potensi": 0,
+            "cai": 0,
+            "pct": 0
+          },
+          {
+            "label": "Expired soon - Never claim",
+            "potensi": 0,
+            "cai": 0,
+            "pct": 0
+          }
+        ],
+        "total_label": "TOTAL EX SOON",
+        "total_potensi": 0,
+        "total_cai": 0,
+        "total_pct": 0
+      },
+      {
+        "group": "Priority 2",
+        "subgroups": [
+          {
+            "label": "Active - Eligible",
+            "potensi": 0,
+            "cai": 0,
+            "pct": 0
+          },
+          {
+            "label": "Active - Not Eligible",
+            "potensi": 0,
+            "cai": 0,
+            "pct": 0
+          },
+          {
+            "label": "Active - Never claim",
+            "potensi": 0,
+            "cai": 0,
+            "pct": 0
+          }
+        ],
+        "total_label": "TOTAL ACTIVE",
+        "total_potensi": 0,
+        "total_cai": 0,
+        "total_pct": 0
+      },
+      {
+        "group": "Priority 3",
+        "subgroups": [
+          {
+            "label": "Finish - Eligible",
+            "potensi": 0,
+            "cai": 0,
+            "pct": 0
+          },
+          {
+            "label": "Finish - Not Eligible",
+            "potensi": 0,
+            "cai": 0,
+            "pct": 0
+          }
+        ],
+        "total_label": "TOTAL FINISH",
+        "total_potensi": 0,
+        "total_cai": 0,
+        "total_pct": 0
+      },
+      {
+        "group": "Priority 4",
+        "subgroups": [
+          {
+            "label": "Expired - Eligible",
+            "potensi": 0,
+            "cai": 0,
+            "pct": 0
+          },
+          {
+            "label": "Expired - Not Eligible",
+            "potensi": 0,
+            "cai": 0,
+            "pct": 0
+          },
+          {
+            "label": "Expired - Never claim",
+            "potensi": 0,
+            "cai": 0,
+            "pct": 0
+          }
+        ],
+        "total_label": "TOTAL EXPIRED",
+        "total_potensi": 0,
+        "total_cai": 0,
+        "total_pct": 0
+      },
+      {
+        "group": "Priority 5",
+        "subgroups": [
+          {
+            "label": "HOT",
+            "potensi": 0,
+            "cai": 0,
+            "pct": 0
+          },
+          {
+            "label": "Medium",
+            "potensi": 0,
+            "cai": 0,
+            "pct": 0
+          },
+          {
+            "label": "Low",
+            "potensi": 0,
+            "cai": 0,
+            "pct": 0
+          }
+        ],
+        "total_label": "TOTAL CRT MERDEKA",
+        "total_potensi": 0,
+        "total_cai": 0,
+        "total_pct": 0,
+        "title": "CRT > 8th Merdeka Motor (Pembelian Asal: MERDEKA — Kolom Judgement Cust)"
+      },
+      {
+        "group": "Priority 6",
+        "subgroups": [
+          {
+            "label": "HOT",
+            "potensi": 0,
+            "cai": 0,
+            "pct": 0
+          },
+          {
+            "label": "Medium",
+            "potensi": 0,
+            "cai": 0,
+            "pct": 0
+          },
+          {
+            "label": "Low",
+            "potensi": 0,
+            "cai": 0,
+            "pct": 0
+          }
+        ],
+        "total_label": "TOTAL CRT NON MERDEKA",
+        "total_potensi": 0,
+        "total_cai": 0,
+        "total_pct": 0,
+        "title": "CRT > 8th All Penjualan (Pembelian Asal: Selain Merdeka — Kolom Judgement Cust)"
+      }
+    ],
+    "Jun": [
+      {
+        "group": "Priority 1",
+        "subgroups": [
+          {
+            "label": "Expired soon - Eligible",
+            "potensi": 10,
+            "cai": 8,
+            "pct": 80.0
+          },
+          {
+            "label": "Expired soon - Not Eligible",
+            "potensi": 8,
+            "cai": 1,
+            "pct": 12.5
+          },
+          {
+            "label": "Expired soon - Never claim",
+            "potensi": 0,
+            "cai": 0,
+            "pct": 0
+          }
+        ],
+        "total_label": "TOTAL EX SOON",
+        "total_potensi": 18,
+        "total_cai": 9,
+        "total_pct": 50.0
+      },
+      {
+        "group": "Priority 2",
+        "subgroups": [
+          {
+            "label": "Active - Eligible",
+            "potensi": 490,
+            "cai": 126,
+            "pct": 25.7
+          },
+          {
+            "label": "Active - Not Eligible",
+            "potensi": 57,
+            "cai": 12,
+            "pct": 21.1
+          },
+          {
+            "label": "Active - Never claim",
+            "potensi": 3,
+            "cai": 0,
+            "pct": 0.0
+          }
+        ],
+        "total_label": "TOTAL ACTIVE",
+        "total_potensi": 550,
+        "total_cai": 138,
+        "total_pct": 25.1
+      },
+      {
+        "group": "Priority 3",
+        "subgroups": [
+          {
+            "label": "Finish - Eligible",
+            "potensi": 89,
+            "cai": 4,
+            "pct": 4.5
+          },
+          {
+            "label": "Finish - Not Eligible",
+            "potensi": 7,
+            "cai": 2,
+            "pct": 28.6
+          }
+        ],
+        "total_label": "TOTAL FINISH",
+        "total_potensi": 96,
+        "total_cai": 6,
+        "total_pct": 6.2
+      },
+      {
+        "group": "Priority 4",
+        "subgroups": [
+          {
+            "label": "Expired - Eligible",
+            "potensi": 154,
+            "cai": 9,
+            "pct": 5.8
+          },
+          {
+            "label": "Expired - Not Eligible",
+            "potensi": 51,
+            "cai": 4,
+            "pct": 7.8
+          },
+          {
+            "label": "Expired - Never claim",
+            "potensi": 2,
+            "cai": 0,
+            "pct": 0.0
+          }
+        ],
+        "total_label": "TOTAL EXPIRED",
+        "total_potensi": 207,
+        "total_cai": 13,
+        "total_pct": 6.3
+      },
+      {
+        "group": "Priority 5",
+        "subgroups": [
+          {
+            "label": "HOT",
+            "potensi": 33,
+            "cai": 7,
+            "pct": 21.2
+          },
+          {
+            "label": "Medium",
+            "potensi": 44,
+            "cai": 7,
+            "pct": 15.9
+          },
+          {
+            "label": "Low",
+            "potensi": 47,
+            "cai": 6,
+            "pct": 12.8
+          }
+        ],
+        "total_label": "TOTAL CRT MERDEKA",
+        "total_potensi": 124,
+        "total_cai": 20,
+        "total_pct": 16.1,
+        "title": "CRT > 8th Merdeka Motor (Pembelian Asal: MERDEKA — Kolom Judgement Cust)"
+      },
+      {
+        "group": "Priority 6",
+        "subgroups": [
+          {
+            "label": "HOT",
+            "potensi": 141,
+            "cai": 27,
+            "pct": 19.1
+          },
+          {
+            "label": "Medium",
+            "potensi": 171,
+            "cai": 26,
+            "pct": 15.2
+          },
+          {
+            "label": "Low",
+            "potensi": 289,
+            "cai": 31,
+            "pct": 10.7
+          }
+        ],
+        "total_label": "TOTAL CRT NON MERDEKA",
+        "total_potensi": 601,
+        "total_cai": 84,
+        "total_pct": 14.0,
+        "title": "CRT > 8th All Penjualan (Pembelian Asal: Selain Merdeka — Kolom Judgement Cust)"
+      }
+    ],
+    "Jul": [
+      {
+        "group": "Priority 1",
+        "subgroups": [
+          {
+            "label": "Expired soon - Eligible",
+            "potensi": 10,
+            "cai": 4,
+            "pct": 40.0
+          },
+          {
+            "label": "Expired soon - Not Eligible",
+            "potensi": 34,
+            "cai": 6,
+            "pct": 17.6
+          },
+          {
+            "label": "Expired soon - Never claim",
+            "potensi": 0,
+            "cai": 0,
+            "pct": 0
+          }
+        ],
+        "total_label": "TOTAL EX SOON",
+        "total_potensi": 44,
+        "total_cai": 10,
+        "total_pct": 22.7
+      },
+      {
+        "group": "Priority 2",
+        "subgroups": [
+          {
+            "label": "Active - Eligible",
+            "potensi": 345,
+            "cai": 90,
+            "pct": 26.1
+          },
+          {
+            "label": "Active - Not Eligible",
+            "potensi": 213,
+            "cai": 25,
+            "pct": 11.7
+          },
+          {
+            "label": "Active - Never claim",
+            "potensi": 0,
+            "cai": 0,
+            "pct": 0
+          }
+        ],
+        "total_label": "TOTAL ACTIVE",
+        "total_potensi": 558,
+        "total_cai": 115,
+        "total_pct": 20.6
+      },
+      {
+        "group": "Priority 3",
+        "subgroups": [
+          {
+            "label": "Finish - Eligible",
+            "potensi": 78,
+            "cai": 12,
+            "pct": 15.4
+          },
+          {
+            "label": "Finish - Not Eligible",
+            "potensi": 21,
+            "cai": 2,
+            "pct": 9.5
+          }
+        ],
+        "total_label": "TOTAL FINISH",
+        "total_potensi": 99,
+        "total_cai": 14,
+        "total_pct": 14.1
+      },
+      {
+        "group": "Priority 4",
+        "subgroups": [
+          {
+            "label": "Expired - Eligible",
+            "potensi": 112,
+            "cai": 8,
+            "pct": 7.1
+          },
+          {
+            "label": "Expired - Not Eligible",
+            "potensi": 141,
+            "cai": 13,
+            "pct": 9.2
+          },
+          {
+            "label": "Expired - Never claim",
+            "potensi": 0,
+            "cai": 0,
+            "pct": 0
+          }
+        ],
+        "total_label": "TOTAL EXPIRED",
+        "total_potensi": 253,
+        "total_cai": 21,
+        "total_pct": 8.3
+      },
+      {
+        "group": "Priority 5",
+        "subgroups": [
+          {
+            "label": "HOT",
+            "potensi": 18,
+            "cai": 1,
+            "pct": 5.6
+          },
+          {
+            "label": "Medium",
+            "potensi": 27,
+            "cai": 5,
+            "pct": 18.5
+          },
+          {
+            "label": "Low",
+            "potensi": 25,
+            "cai": 1,
+            "pct": 4.0
+          }
+        ],
+        "total_label": "TOTAL CRT MERDEKA",
+        "total_potensi": 70,
+        "total_cai": 7,
+        "total_pct": 10.0,
+        "title": "CRT > 8th Merdeka Motor (Pembelian Asal: MERDEKA — Kolom Judgement Cust)"
+      },
+      {
+        "group": "Priority 6",
+        "subgroups": [
+          {
+            "label": "HOT",
+            "potensi": 132,
+            "cai": 24,
+            "pct": 18.2
+          },
+          {
+            "label": "Medium",
+            "potensi": 156,
+            "cai": 21,
+            "pct": 13.5
+          },
+          {
+            "label": "Low",
+            "potensi": 216,
+            "cai": 30,
+            "pct": 13.9
+          }
+        ],
+        "total_label": "TOTAL CRT NON MERDEKA",
+        "total_potensi": 504,
+        "total_cai": 75,
+        "total_pct": 14.9,
+        "title": "CRT > 8th All Penjualan (Pembelian Asal: Selain Merdeka — Kolom Judgement Cust)"
+      }
+    ],
+    "Agt": [
+      {
+        "group": "Priority 1",
+        "subgroups": [
+          {
+            "label": "Expired soon - Eligible",
+            "potensi": 0,
+            "cai": 0,
+            "pct": 0
+          },
+          {
+            "label": "Expired soon - Not Eligible",
+            "potensi": 0,
+            "cai": 0,
+            "pct": 0
+          },
+          {
+            "label": "Expired soon - Never claim",
+            "potensi": 0,
+            "cai": 0,
+            "pct": 0
+          }
+        ],
+        "total_label": "TOTAL EX SOON",
+        "total_potensi": 0,
+        "total_cai": 0,
+        "total_pct": 0
+      },
+      {
+        "group": "Priority 2",
+        "subgroups": [
+          {
+            "label": "Active - Eligible",
+            "potensi": 0,
+            "cai": 0,
+            "pct": 0
+          },
+          {
+            "label": "Active - Not Eligible",
+            "potensi": 0,
+            "cai": 0,
+            "pct": 0
+          },
+          {
+            "label": "Active - Never claim",
+            "potensi": 0,
+            "cai": 0,
+            "pct": 0
+          }
+        ],
+        "total_label": "TOTAL ACTIVE",
+        "total_potensi": 0,
+        "total_cai": 0,
+        "total_pct": 0
+      },
+      {
+        "group": "Priority 3",
+        "subgroups": [
+          {
+            "label": "Finish - Eligible",
+            "potensi": 0,
+            "cai": 0,
+            "pct": 0
+          },
+          {
+            "label": "Finish - Not Eligible",
+            "potensi": 0,
+            "cai": 0,
+            "pct": 0
+          }
+        ],
+        "total_label": "TOTAL FINISH",
+        "total_potensi": 0,
+        "total_cai": 0,
+        "total_pct": 0
+      },
+      {
+        "group": "Priority 4",
+        "subgroups": [
+          {
+            "label": "Expired - Eligible",
+            "potensi": 0,
+            "cai": 0,
+            "pct": 0
+          },
+          {
+            "label": "Expired - Not Eligible",
+            "potensi": 0,
+            "cai": 0,
+            "pct": 0
+          },
+          {
+            "label": "Expired - Never claim",
+            "potensi": 0,
+            "cai": 0,
+            "pct": 0
+          }
+        ],
+        "total_label": "TOTAL EXPIRED",
+        "total_potensi": 0,
+        "total_cai": 0,
+        "total_pct": 0
+      },
+      {
+        "group": "Priority 5",
+        "subgroups": [
+          {
+            "label": "HOT",
+            "potensi": 0,
+            "cai": 0,
+            "pct": 0
+          },
+          {
+            "label": "Medium",
+            "potensi": 0,
+            "cai": 0,
+            "pct": 0
+          },
+          {
+            "label": "Low",
+            "potensi": 0,
+            "cai": 0,
+            "pct": 0
+          }
+        ],
+        "total_label": "TOTAL CRT MERDEKA",
+        "total_potensi": 0,
+        "total_cai": 0,
+        "total_pct": 0,
+        "title": "CRT > 8th Merdeka Motor (Pembelian Asal: MERDEKA — Kolom Judgement Cust)"
+      },
+      {
+        "group": "Priority 6",
+        "subgroups": [
+          {
+            "label": "HOT",
+            "potensi": 0,
+            "cai": 0,
+            "pct": 0
+          },
+          {
+            "label": "Medium",
+            "potensi": 0,
+            "cai": 0,
+            "pct": 0
+          },
+          {
+            "label": "Low",
+            "potensi": 0,
+            "cai": 0,
+            "pct": 0
+          }
+        ],
+        "total_label": "TOTAL CRT NON MERDEKA",
+        "total_potensi": 0,
+        "total_cai": 0,
+        "total_pct": 0,
+        "title": "CRT > 8th All Penjualan (Pembelian Asal: Selain Merdeka — Kolom Judgement Cust)"
+      }
+    ],
+    "Sep": [
+      {
+        "group": "Priority 1",
+        "subgroups": [
+          {
+            "label": "Expired soon - Eligible",
+            "potensi": 17,
+            "cai": 10,
+            "pct": 58.8
+          },
+          {
+            "label": "Expired soon - Not Eligible",
+            "potensi": 12,
+            "cai": 0,
+            "pct": 0.0
+          },
+          {
+            "label": "Expired soon - Never claim",
+            "potensi": 2,
+            "cai": 0,
+            "pct": 0.0
+          }
+        ],
+        "total_label": "TOTAL EX SOON",
+        "total_potensi": 31,
+        "total_cai": 10,
+        "total_pct": 32.3
+      },
+      {
+        "group": "Priority 2",
+        "subgroups": [
+          {
+            "label": "Active - Eligible",
+            "potensi": 508,
+            "cai": 132,
+            "pct": 26.0
+          },
+          {
+            "label": "Active - Not Eligible",
+            "potensi": 95,
+            "cai": 8,
+            "pct": 8.4
+          },
+          {
+            "label": "Active - Never claim",
+            "potensi": 27,
+            "cai": 0,
+            "pct": 0.0
+          }
+        ],
+        "total_label": "TOTAL ACTIVE",
+        "total_potensi": 630,
+        "total_cai": 140,
+        "total_pct": 22.2
+      },
+      {
+        "group": "Priority 3",
+        "subgroups": [
+          {
+            "label": "Finish - Eligible",
+            "potensi": 43,
+            "cai": 6,
+            "pct": 14.0
+          },
+          {
+            "label": "Finish - Not Eligible",
+            "potensi": 42,
+            "cai": 3,
+            "pct": 7.1
+          }
+        ],
+        "total_label": "TOTAL FINISH",
+        "total_potensi": 85,
+        "total_cai": 9,
+        "total_pct": 10.6
+      },
+      {
+        "group": "Priority 4",
+        "subgroups": [
+          {
+            "label": "Expired - Eligible",
+            "potensi": 106,
+            "cai": 16,
+            "pct": 15.1
+          },
+          {
+            "label": "Expired - Not Eligible",
+            "potensi": 63,
+            "cai": 5,
+            "pct": 7.9
+          },
+          {
+            "label": "Expired - Never claim",
+            "potensi": 22,
+            "cai": 3,
+            "pct": 13.6
+          }
+        ],
+        "total_label": "TOTAL EXPIRED",
+        "total_potensi": 191,
+        "total_cai": 24,
+        "total_pct": 12.6
+      },
+      {
+        "group": "Priority 5",
+        "subgroups": [
+          {
+            "label": "HOT",
+            "potensi": 0,
+            "cai": 0,
+            "pct": 0
+          },
+          {
+            "label": "Medium",
+            "potensi": 0,
+            "cai": 0,
+            "pct": 0
+          },
+          {
+            "label": "Low",
+            "potensi": 0,
+            "cai": 0,
+            "pct": 0
+          }
+        ],
+        "total_label": "TOTAL CRT MERDEKA",
+        "total_potensi": 0,
+        "total_cai": 0,
+        "total_pct": 0,
+        "title": "CRT > 8th Merdeka Motor (Pembelian Asal: MERDEKA — Kolom Judgement Cust)"
+      },
+      {
+        "group": "Priority 6",
+        "subgroups": [
+          {
+            "label": "HOT",
+            "potensi": 0,
+            "cai": 0,
+            "pct": 0
+          },
+          {
+            "label": "Medium",
+            "potensi": 0,
+            "cai": 0,
+            "pct": 0
+          },
+          {
+            "label": "Low",
+            "potensi": 0,
+            "cai": 0,
+            "pct": 0
+          }
+        ],
+        "total_label": "TOTAL CRT NON MERDEKA",
+        "total_potensi": 0,
+        "total_cai": 0,
+        "total_pct": 0,
+        "title": "CRT > 8th All Penjualan (Pembelian Asal: Selain Merdeka — Kolom Judgement Cust)"
+      }
+    ]
+  },
+  "potensi_by_program_by_period": {
+    "all": {
+      "t_care": {
+        "title": "I. T-CARE",
+        "potency": 5555,
+        "cust_fu": 5033,
+        "connected": 4894,
+        "contacted": 3646,
+        "booking": 1082,
+        "cai": 1123
+      },
+      "t_care_lite_plus": {
+        "title": "II. T-CARE Lite +",
+        "potency": 601,
+        "cust_fu": 563,
+        "connected": 553,
+        "contacted": 409,
+        "booking": 142,
+        "cai": 140
+      },
+      "t_care_lite": {
+        "title": "III. T-CARE Lite",
+        "potency": 749,
+        "cust_fu": 684,
+        "connected": 661,
+        "contacted": 447,
+        "booking": 143,
+        "cai": 133
+      },
+      "care_x": {
+        "title": "IV. Potensi CARE-X",
+        "potency": 5993,
+        "cust_fu": 5324,
+        "connected": 5137,
+        "contacted": 3191,
+        "booking": 792,
+        "cai": 832
+      }
+    },
+    "Q1": {
+      "t_care": {
+        "title": "I. T-CARE",
+        "potency": 1702,
+        "cust_fu": 1677,
+        "connected": 1609,
+        "contacted": 1163,
+        "booking": 349,
+        "cai": 379
+      },
+      "t_care_lite_plus": {
+        "title": "II. T-CARE Lite +",
+        "potency": 185,
+        "cust_fu": 183,
+        "connected": 180,
+        "contacted": 127,
+        "booking": 34,
+        "cai": 37
+      },
+      "t_care_lite": {
+        "title": "III. T-CARE Lite",
+        "potency": 232,
+        "cust_fu": 230,
+        "connected": 225,
+        "contacted": 162,
+        "booking": 47,
+        "cai": 49
+      },
+      "care_x": {
+        "title": "IV. Potensi CARE-X",
+        "potency": 2180,
+        "cust_fu": 2136,
+        "connected": 2015,
+        "contacted": 1346,
+        "booking": 313,
+        "cai": 353
+      }
+    },
+    "Q2": {
+      "t_care": {
+        "title": "I. T-CARE",
+        "potency": 1786,
+        "cust_fu": 1682,
+        "connected": 1655,
+        "contacted": 1245,
+        "booking": 372,
+        "cai": 392
+      },
+      "t_care_lite_plus": {
+        "title": "II. T-CARE Lite +",
+        "potency": 182,
+        "cust_fu": 177,
+        "connected": 176,
+        "contacted": 134,
+        "booking": 48,
+        "cai": 48
+      },
+      "t_care_lite": {
+        "title": "III. T-CARE Lite",
+        "potency": 229,
+        "cust_fu": 215,
+        "connected": 212,
+        "contacted": 146,
+        "booking": 46,
+        "cai": 44
+      },
+      "care_x": {
+        "title": "IV. Potensi CARE-X",
+        "potency": 1804,
+        "cust_fu": 1751,
+        "connected": 1708,
+        "contacted": 1106,
+        "booking": 281,
+        "cai": 287
+      }
+    },
+    "Q3": {
+      "t_care": {
+        "title": "I. T-CARE",
+        "potency": 2067,
+        "cust_fu": 1674,
+        "connected": 1630,
+        "contacted": 1238,
+        "booking": 361,
+        "cai": 352
+      },
+      "t_care_lite_plus": {
+        "title": "II. T-CARE Lite +",
+        "potency": 234,
+        "cust_fu": 203,
+        "connected": 197,
+        "contacted": 148,
+        "booking": 60,
+        "cai": 55
+      },
+      "t_care_lite": {
+        "title": "III. T-CARE Lite",
+        "potency": 288,
+        "cust_fu": 239,
+        "connected": 224,
+        "contacted": 139,
+        "booking": 50,
+        "cai": 40
+      },
+      "care_x": {
+        "title": "IV. Potensi CARE-X",
+        "potency": 2009,
+        "cust_fu": 1437,
+        "connected": 1414,
+        "contacted": 739,
+        "booking": 198,
+        "cai": 192
+      }
+    },
+    "Jan": {
+      "t_care": {
+        "title": "I. T-CARE",
+        "potency": 601,
+        "cust_fu": 589,
+        "connected": 562,
+        "contacted": 399,
+        "booking": 114,
+        "cai": 115
+      },
+      "t_care_lite_plus": {
+        "title": "II. T-CARE Lite +",
+        "potency": 70,
+        "cust_fu": 69,
+        "connected": 66,
+        "contacted": 45,
+        "booking": 12,
+        "cai": 10
+      },
+      "t_care_lite": {
+        "title": "III. T-CARE Lite",
+        "potency": 82,
+        "cust_fu": 82,
+        "connected": 81,
+        "contacted": 54,
+        "booking": 13,
+        "cai": 12
+      },
+      "care_x": {
+        "title": "IV. Potensi CARE-X",
+        "potency": 801,
+        "cust_fu": 787,
+        "connected": 724,
+        "contacted": 478,
+        "booking": 97,
+        "cai": 98
+      }
+    },
+    "Feb": {
+      "t_care": {
+        "title": "I. T-CARE",
+        "potency": 552,
+        "cust_fu": 552,
+        "connected": 531,
+        "contacted": 378,
+        "booking": 114,
+        "cai": 123
+      },
+      "t_care_lite_plus": {
+        "title": "II. T-CARE Lite +",
+        "potency": 58,
+        "cust_fu": 58,
+        "connected": 58,
+        "contacted": 41,
+        "booking": 9,
+        "cai": 11
+      },
+      "t_care_lite": {
+        "title": "III. T-CARE Lite",
+        "potency": 75,
+        "cust_fu": 75,
+        "connected": 75,
+        "contacted": 49,
+        "booking": 15,
+        "cai": 17
+      },
+      "care_x": {
+        "title": "IV. Potensi CARE-X",
+        "potency": 706,
+        "cust_fu": 706,
+        "connected": 679,
+        "contacted": 399,
+        "booking": 90,
+        "cai": 106
+      }
+    },
+    "Mar": {
+      "t_care": {
+        "title": "I. T-CARE",
+        "potency": 549,
+        "cust_fu": 536,
+        "connected": 516,
+        "contacted": 386,
+        "booking": 121,
+        "cai": 141
+      },
+      "t_care_lite_plus": {
+        "title": "II. T-CARE Lite +",
+        "potency": 57,
+        "cust_fu": 56,
+        "connected": 56,
+        "contacted": 41,
+        "booking": 13,
+        "cai": 16
+      },
+      "t_care_lite": {
+        "title": "III. T-CARE Lite",
+        "potency": 75,
+        "cust_fu": 73,
+        "connected": 69,
+        "contacted": 59,
+        "booking": 19,
+        "cai": 20
+      },
+      "care_x": {
+        "title": "IV. Potensi CARE-X",
+        "potency": 673,
+        "cust_fu": 643,
+        "connected": 612,
+        "contacted": 469,
+        "booking": 126,
+        "cai": 149
+      }
+    },
+    "Apr": {
+      "t_care": {
+        "title": "I. T-CARE",
+        "potency": 543,
+        "cust_fu": 543,
+        "connected": 534,
+        "contacted": 377,
+        "booking": 132,
+        "cai": 149
+      },
+      "t_care_lite_plus": {
+        "title": "II. T-CARE Lite +",
+        "potency": 57,
+        "cust_fu": 57,
+        "connected": 56,
+        "contacted": 39,
+        "booking": 16,
+        "cai": 17
+      },
+      "t_care_lite": {
+        "title": "III. T-CARE Lite",
+        "potency": 69,
+        "cust_fu": 69,
+        "connected": 69,
+        "contacted": 46,
+        "booking": 14,
+        "cai": 14
+      },
+      "care_x": {
+        "title": "IV. Potensi CARE-X",
+        "potency": 547,
+        "cust_fu": 547,
+        "connected": 536,
+        "contacted": 348,
+        "booking": 105,
+        "cai": 112
+      }
+    },
+    "Mei": {
+      "t_care": {
+        "title": "I. T-CARE",
+        "potency": 534,
+        "cust_fu": 522,
+        "connected": 515,
+        "contacted": 423,
+        "booking": 109,
+        "cai": 109
+      },
+      "t_care_lite_plus": {
+        "title": "II. T-CARE Lite +",
+        "potency": 55,
+        "cust_fu": 54,
+        "connected": 54,
+        "contacted": 42,
+        "booking": 14,
+        "cai": 13
+      },
+      "t_care_lite": {
+        "title": "III. T-CARE Lite",
+        "potency": 68,
+        "cust_fu": 67,
+        "connected": 66,
+        "contacted": 58,
+        "booking": 18,
+        "cai": 16
+      },
+      "care_x": {
+        "title": "IV. Potensi CARE-X",
+        "potency": 532,
+        "cust_fu": 522,
+        "connected": 503,
+        "contacted": 397,
+        "booking": 73,
+        "cai": 71
+      }
+    },
+    "Jun": {
+      "t_care": {
+        "title": "I. T-CARE",
+        "potency": 709,
+        "cust_fu": 617,
+        "connected": 606,
+        "contacted": 445,
+        "booking": 131,
+        "cai": 134
+      },
+      "t_care_lite_plus": {
+        "title": "II. T-CARE Lite +",
+        "potency": 70,
+        "cust_fu": 66,
+        "connected": 66,
+        "contacted": 53,
+        "booking": 18,
+        "cai": 18
+      },
+      "t_care_lite": {
+        "title": "III. T-CARE Lite",
+        "potency": 92,
+        "cust_fu": 79,
+        "connected": 77,
+        "contacted": 42,
+        "booking": 14,
+        "cai": 14
+      },
+      "care_x": {
+        "title": "IV. Potensi CARE-X",
+        "potency": 725,
+        "cust_fu": 682,
+        "connected": 669,
+        "contacted": 361,
+        "booking": 103,
+        "cai": 104
+      }
+    },
+    "Jul": {
+      "t_care": {
+        "title": "I. T-CARE",
+        "potency": 744,
+        "cust_fu": 744,
+        "connected": 714,
+        "contacted": 515,
+        "booking": 126,
+        "cai": 124
+      },
+      "t_care_lite_plus": {
+        "title": "II. T-CARE Lite +",
+        "potency": 87,
+        "cust_fu": 87,
+        "connected": 83,
+        "contacted": 61,
+        "booking": 25,
+        "cai": 23
+      },
+      "t_care_lite": {
+        "title": "III. T-CARE Lite",
+        "potency": 123,
+        "cust_fu": 123,
+        "connected": 113,
+        "contacted": 65,
+        "booking": 19,
+        "cai": 13
+      },
+      "care_x": {
+        "title": "IV. Potensi CARE-X",
+        "potency": 574,
+        "cust_fu": 574,
+        "connected": 565,
+        "contacted": 339,
+        "booking": 78,
+        "cai": 82
+      }
+    },
+    "Agt": {
+      "t_care": {
+        "title": "I. T-CARE",
+        "potency": 587,
+        "cust_fu": 567,
+        "connected": 556,
+        "contacted": 441,
+        "booking": 149,
+        "cai": 148
+      },
+      "t_care_lite_plus": {
+        "title": "II. T-CARE Lite +",
+        "potency": 65,
+        "cust_fu": 62,
+        "connected": 62,
+        "contacted": 45,
+        "booking": 21,
+        "cai": 20
+      },
+      "t_care_lite": {
+        "title": "III. T-CARE Lite",
+        "potency": 80,
+        "cust_fu": 78,
+        "connected": 74,
+        "contacted": 48,
+        "booking": 20,
+        "cai": 18
+      },
+      "care_x": {
+        "title": "IV. Potensi CARE-X",
+        "potency": 801,
+        "cust_fu": 542,
+        "connected": 534,
+        "contacted": 273,
+        "booking": 71,
+        "cai": 63
+      }
+    },
+    "Sep": {
+      "t_care": {
+        "title": "I. T-CARE",
+        "potency": 736,
+        "cust_fu": 363,
+        "connected": 360,
+        "contacted": 282,
+        "booking": 86,
+        "cai": 80
+      },
+      "t_care_lite_plus": {
+        "title": "II. T-CARE Lite +",
+        "potency": 82,
+        "cust_fu": 54,
+        "connected": 52,
+        "contacted": 42,
+        "booking": 14,
+        "cai": 12
+      },
+      "t_care_lite": {
+        "title": "III. T-CARE Lite",
+        "potency": 85,
+        "cust_fu": 38,
+        "connected": 37,
+        "contacted": 26,
+        "booking": 11,
+        "cai": 9
+      },
+      "care_x": {
+        "title": "IV. Potensi CARE-X",
+        "potency": 634,
+        "cust_fu": 321,
+        "connected": 315,
+        "contacted": 127,
+        "booking": 49,
+        "cai": 47
+      }
+    }
+  },
+  "status_booking_by_period": {
+    "all": {
+      "booking": {
+        "count": 2159,
+        "pct": 100
+      },
+      "show_cai": {
+        "count": 1987,
+        "pct": 92.0
+      },
+      "open": {
+        "count": 172,
+        "pct": 8.0,
+        "note": "Customer yang jawab Booking tapi Not CAI (perlu follow up ulang)"
+      }
+    },
+    "Q1": {
+      "booking": {
+        "count": 743,
+        "pct": 100
+      },
+      "show_cai": {
+        "count": 679,
+        "pct": 91.4
+      },
+      "open": {
+        "count": 64,
+        "pct": 8.6,
+        "note": "Customer yang jawab Booking tapi Not CAI (perlu follow up ulang)"
+      }
+    },
+    "Q2": {
+      "booking": {
+        "count": 747,
+        "pct": 100
+      },
+      "show_cai": {
+        "count": 708,
+        "pct": 94.8
+      },
+      "open": {
+        "count": 39,
+        "pct": 5.2,
+        "note": "Customer yang jawab Booking tapi Not CAI (perlu follow up ulang)"
+      }
+    },
+    "Q3": {
+      "booking": {
+        "count": 669,
+        "pct": 100
+      },
+      "show_cai": {
+        "count": 600,
+        "pct": 89.7
+      },
+      "open": {
+        "count": 69,
+        "pct": 10.3,
+        "note": "Customer yang jawab Booking tapi Not CAI (perlu follow up ulang)"
+      }
+    },
+    "Jan": {
+      "booking": {
+        "count": 236,
+        "pct": 100
+      },
+      "show_cai": {
+        "count": 220,
+        "pct": 93.2
+      },
+      "open": {
+        "count": 16,
+        "pct": 6.8,
+        "note": "Customer yang jawab Booking tapi Not CAI (perlu follow up ulang)"
+      }
+    },
+    "Feb": {
+      "booking": {
+        "count": 228,
+        "pct": 100
+      },
+      "show_cai": {
+        "count": 203,
+        "pct": 89.0
+      },
+      "open": {
+        "count": 25,
+        "pct": 11.0,
+        "note": "Customer yang jawab Booking tapi Not CAI (perlu follow up ulang)"
+      }
+    },
+    "Mar": {
+      "booking": {
+        "count": 279,
+        "pct": 100
+      },
+      "show_cai": {
+        "count": 256,
+        "pct": 91.8
+      },
+      "open": {
+        "count": 23,
+        "pct": 8.2,
+        "note": "Customer yang jawab Booking tapi Not CAI (perlu follow up ulang)"
+      }
+    },
+    "Apr": {
+      "booking": {
+        "count": 267,
+        "pct": 100
+      },
+      "show_cai": {
+        "count": 256,
+        "pct": 95.9
+      },
+      "open": {
+        "count": 11,
+        "pct": 4.1,
+        "note": "Customer yang jawab Booking tapi Not CAI (perlu follow up ulang)"
+      }
+    },
+    "Mei": {
+      "booking": {
+        "count": 214,
+        "pct": 100
+      },
+      "show_cai": {
+        "count": 198,
+        "pct": 92.5
+      },
+      "open": {
+        "count": 16,
+        "pct": 7.5,
+        "note": "Customer yang jawab Booking tapi Not CAI (perlu follow up ulang)"
+      }
+    },
+    "Jun": {
+      "booking": {
+        "count": 266,
+        "pct": 100
+      },
+      "show_cai": {
+        "count": 254,
+        "pct": 95.5
+      },
+      "open": {
+        "count": 12,
+        "pct": 4.5,
+        "note": "Customer yang jawab Booking tapi Not CAI (perlu follow up ulang)"
+      }
+    },
+    "Jul": {
+      "booking": {
+        "count": 248,
+        "pct": 100
+      },
+      "show_cai": {
+        "count": 228,
+        "pct": 91.9
+      },
+      "open": {
+        "count": 20,
+        "pct": 8.1,
+        "note": "Customer yang jawab Booking tapi Not CAI (perlu follow up ulang)"
+      }
+    },
+    "Agt": {
+      "booking": {
+        "count": 261,
+        "pct": 100
+      },
+      "show_cai": {
+        "count": 233,
+        "pct": 89.3
+      },
+      "open": {
+        "count": 28,
+        "pct": 10.7,
+        "note": "Customer yang jawab Booking tapi Not CAI (perlu follow up ulang)"
+      }
+    },
+    "Sep": {
+      "booking": {
+        "count": 160,
+        "pct": 100
+      },
+      "show_cai": {
+        "count": 139,
+        "pct": 86.9
+      },
+      "open": {
+        "count": 21,
+        "pct": 13.1,
+        "note": "Customer yang jawab Booking tapi Not CAI (perlu follow up ulang)"
+      }
+    }
+  },
+  "monthly_ring_area_trend": {
+    "Jan": {
+      "Ring 1": {
+        "cust_fu": 631,
+        "connected": 582
+      },
+      "Out of Area": {
+        "cust_fu": 490,
+        "connected": 454
+      },
+      "Ring 2": {
+        "cust_fu": 315,
+        "connected": 287
+      },
+      "Ring 3": {
+        "cust_fu": 118,
+        "connected": 110
+      }
+    },
+    "Feb": {
+      "Ring 3": {
+        "cust_fu": 116,
+        "connected": 108
+      },
+      "Out of Area": {
+        "cust_fu": 402,
+        "connected": 388
+      },
+      "Ring 1": {
+        "cust_fu": 572,
+        "connected": 551
+      },
+      "Ring 2": {
+        "cust_fu": 301,
+        "connected": 296
+      }
+    },
+    "Mar": {
+      "Ring 1": {
+        "cust_fu": 575,
+        "connected": 532
+      },
+      "Out of Area": {
+        "cust_fu": 382,
+        "connected": 361
+      },
+      "Ring 3": {
+        "cust_fu": 107,
+        "connected": 100
+      },
+      "Ring 2": {
+        "cust_fu": 290,
+        "connected": 260
+      }
+    },
+    "Apr": {
+      "Out of Area": {
+        "cust_fu": 352,
+        "connected": 348
+      },
+      "Ring 1": {
+        "cust_fu": 486,
+        "connected": 480
+      },
+      "Ring 3": {
+        "cust_fu": 99,
+        "connected": 98
+      },
+      "Ring 2": {
+        "cust_fu": 279,
+        "connected": 269
+      }
+    },
+    "Mei": {
+      "Ring 1": {
+        "cust_fu": 380,
+        "connected": 367
+      },
+      "Ring 2": {
+        "cust_fu": 254,
+        "connected": 245
+      },
+      "Out of Area": {
+        "cust_fu": 469,
+        "connected": 443
+      },
+      "Ring 3": {
+        "cust_fu": 86,
+        "connected": 83
+      }
+    },
+    "Jun": {
+      "Out of Area": {
+        "cust_fu": 527,
+        "connected": 467
+      },
+      "Ring 3": {
+        "cust_fu": 117,
+        "connected": 108
+      },
+      "Ring 1": {
+        "cust_fu": 652,
+        "connected": 568
+      },
+      "Ring 2": {
+        "cust_fu": 300,
+        "connected": 275
+      }
+    },
+    "Jul": {
+      "Ring 1": {
+        "cust_fu": 585,
+        "connected": 568
+      },
+      "Ring 2": {
+        "cust_fu": 316,
+        "connected": 304
+      },
+      "Out of Area": {
+        "cust_fu": 513,
+        "connected": 496
+      },
+      "Ring 3": {
+        "cust_fu": 114,
+        "connected": 107
+      }
+    },
+    "Agt": {
+      "Ring 1": {
+        "cust_fu": 616,
+        "connected": 490
+      },
+      "Out of Area": {
+        "cust_fu": 491,
+        "connected": 409
+      },
+      "Ring 2": {
+        "cust_fu": 287,
+        "connected": 221
+      },
+      "Ring 3": {
+        "cust_fu": 139,
+        "connected": 106
+      }
+    },
+    "Sep": {
+      "Out of Area": {
+        "cust_fu": 8,
+        "connected": 8
+      },
+      "Ring 1": {
+        "cust_fu": 0,
+        "connected": 0
+      },
+      "Ring 2": {
+        "cust_fu": 0,
+        "connected": 0
+      },
+      "Ring 3": {
+        "cust_fu": 0,
+        "connected": 0
+      }
+    }
+  },
+  "monthly_fleet_retail_trend": {
+    "Jan": {
+      "Retail": {
+        "cust_fu": 1452,
+        "connected": 1337
+      },
+      "Fleet": {
+        "cust_fu": 102,
+        "connected": 96
+      }
+    },
+    "Feb": {
+      "Retail": {
+        "cust_fu": 1296,
+        "connected": 1250
+      },
+      "Fleet": {
+        "cust_fu": 95,
+        "connected": 93
+      }
+    },
+    "Mar": {
+      "Retail": {
+        "cust_fu": 1270,
+        "connected": 1175
+      },
+      "Fleet": {
+        "cust_fu": 84,
+        "connected": 78
+      }
+    },
+    "Apr": {
+      "Retail": {
+        "cust_fu": 1130,
+        "connected": 1110
+      },
+      "Fleet": {
+        "cust_fu": 86,
+        "connected": 85
+      }
+    },
+    "Mei": {
+      "Retail": {
+        "cust_fu": 1118,
+        "connected": 1069
+      },
+      "Fleet": {
+        "cust_fu": 71,
+        "connected": 69
+      }
+    },
+    "Jun": {
+      "Retail": {
+        "cust_fu": 1494,
+        "connected": 1326
+      },
+      "Fleet": {
+        "cust_fu": 102,
+        "connected": 92
+      }
+    },
+    "Jul": {
+      "Fleet": {
+        "cust_fu": 110,
+        "connected": 107
+      },
+      "Retail": {
+        "cust_fu": 1418,
+        "connected": 1368
+      }
+    },
+    "Agt": {
+      "Retail": {
+        "cust_fu": 1429,
+        "connected": 1145
+      },
+      "Fleet": {
+        "cust_fu": 104,
+        "connected": 81
+      }
+    },
+    "Sep": {
+      "Retail": {
+        "cust_fu": 6,
+        "connected": 6
+      },
+      "Fleet": {
+        "cust_fu": 2,
+        "connected": 2
+      }
+    }
+  }
+}

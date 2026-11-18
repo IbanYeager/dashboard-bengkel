@@ -1,0 +1,34 @@
+# Environment & Vercel
+.vercel
+.vercel.bak
+.env*
+
+# Agent configs
+.agents/
+
+# Large Excel spreadsheets (over 40MB each)
+*.xlsx
+*.xls
+*.bak
+*.backup.xlsx
+
+# Databases & local caches
+*.db
+*.sqlite
+data/gsheet_temp/
+
+# Scripts & temporary scratch
+scratch/
+scratch_toyota.html
+scripts/__pycache__/
+*.pyc
+
+# Archives
+*.zip
+*.rar
+
+# Screenshots & temp test files
+screenshot_*.png
+test_embed.html
+temp_*.ps1
+temp_*.js
